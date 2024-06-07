@@ -25,6 +25,7 @@ def visualize_game_start(game_info, uuid=None):
                 )
             )
     ls.append(DIVIDER)
+    # ls.append('\n\n')
     return "\n".join(ls)
 
 

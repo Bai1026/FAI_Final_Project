@@ -1,10 +1,14 @@
 import os
 import json
 from game.game import setup_config, start_poker
+
 from agents.call_player import setup_ai as call_ai
-from agents.call_player import setup_ai_allin as call_ai_allin
 from agents.random_player import setup_ai as random_ai
 from agents.console_player import setup_ai as console_ai
+from agents.allin_player import setup_ai as call_ai_allin
+from agents.raise_100_player import setup_ai as raise_100_ai
+from agents.raise_250_player import setup_ai as raise_250_ai
+from agents.preflop_call_player import setup_ai as preflop_call_ai
 
 from baseline0 import setup_ai as baseline0_ai
 from baseline1 import setup_ai as baseline1_ai
@@ -17,26 +21,29 @@ from baseline7 import setup_ai as baseline7_ai
 
 config = setup_config(max_round=20, initial_stack=1000, small_blind_amount=5)
 
-# baseline players
-# config.register_player(name="p1", algorithm=baseline0_ai())
-config.register_player(name="p1", algorithm=baseline1_ai())
+# ============ Baseline players ============
+config.register_player(name="p1", algorithm=baseline2_ai())
 
-# our players
+# ============ Our players ============
 # config.register_player(name="p2", algorithm=random_ai())
-config.register_player(name="p2", algorithm=call_ai())
+# config.register_player(name="p2", algorithm=call_ai())
 # config.register_player(name="p2", algorithm=call_ai_allin())
+config.register_player(name="p2", algorithm=preflop_call_ai())
+# config.register_player(name="p2", algorithm=raise_100_ai())
+# config.register_player(name="p2", algorithm=raise_250_ai())
 
-## Play in interactive mode if uncomment
-#config.register_player(name="me", algorithm=console_ai())
+## ============ Play in interactive mode if uncomment ============
+# config.register_player(name="me", algorithm=console_ai())
+
 game_result = start_poker(config, verbose=1)
 
 print(json.dumps(game_result, indent=4))
 
-file_path = './results/game_result.json'
-i = 0
-while os.path.exists(file_path):
-    i += 1
-    file_path = './results/game_result_' + str(i) + '.json'
-with open(file_path, 'w') as f:
-    json.dump(game_result, f, indent=4)
-print('Game result saved to', file_path)
+# file_path = './results/game_result.json'
+# i = 0
+# while os.path.exists(file_path):
+#     i += 1
+#     file_path = './results/game_result_' + str(i) + '.json'
+# with open(file_path, 'w') as f:
+#     json.dump(game_result, f, indent=4)
+# print('Game result saved to', file_path)

@@ -1,535 +1,652 @@
-[
-    [
-        {
-            "strength": 7
+{
+    "2": {
+        "3": {
+            "offsuit": 83,
+            "suited": 86
         },
-        {
-            "strength": 49
+        "4": {
+            "offsuit": 77,
+            "suited": 15
         },
-        {
-            "strength": 73
+        "5": {
+            "offsuit": 93,
+            "suited": 35
         },
-        {
-            "strength": 58
+        "6": {
+            "offsuit": 86,
+            "suited": 92
         },
-        {
-            "strength": 30
+        "7": {
+            "offsuit": 49,
+            "suited": 21
         },
-        {
-            "strength": 72
+        "8": {
+            "offsuit": 62,
+            "suited": 27
         },
-        {
-            "strength": 44
+        "9": {
+            "offsuit": 90,
+            "suited": 59
         },
-        {
-            "strength": 78
+        "A": {
+            "offsuit": 67,
+            "suited": 29
         },
-        {
-            "strength": 23
+        "J": {
+            "offsuit": 40,
+            "suited": 26
         },
-        {
-            "strength": 9
+        "K": {
+            "offsuit": 11,
+            "suited": 68
         },
-        {
-            "strength": 40
+        "Q": {
+            "offsuit": 72,
+            "suited": 36
         },
-        {
-            "strength": 65
-        },
-        {
-            "strength": 92
+        "T": {
+            "offsuit": 63,
+            "suited": 26
         }
-    ],
-    [
-        {
-            "strength": 42
+    },
+    "3": {
+        "2": {
+            "offsuit": 82,
+            "suited": 30
         },
-        {
-            "strength": 87
+        "4": {
+            "offsuit": 62,
+            "suited": 23
         },
-        {
-            "strength": 3
+        "5": {
+            "offsuit": 67,
+            "suited": 35
         },
-        {
-            "strength": 27
+        "6": {
+            "offsuit": 29,
+            "suited": 2
         },
-        {
-            "strength": 29
+        "7": {
+            "offsuit": 22,
+            "suited": 58
         },
-        {
-            "strength": 40
+        "8": {
+            "offsuit": 69,
+            "suited": 67
         },
-        {
-            "strength": 12
+        "9": {
+            "offsuit": 93,
+            "suited": 56
         },
-        {
-            "strength": 3
+        "A": {
+            "offsuit": 98,
+            "suited": 24
         },
-        {
-            "strength": 69
+        "J": {
+            "offsuit": 29,
+            "suited": 73
         },
-        {
-            "strength": 9
+        "K": {
+            "offsuit": 84,
+            "suited": 37
         },
-        {
-            "strength": 57
+        "Q": {
+            "offsuit": 21,
+            "suited": 19
         },
-        {
-            "strength": 60
-        },
-        {
-            "strength": 33
+        "T": {
+            "offsuit": 11,
+            "suited": 42
         }
-    ],
-    [
-        {
-            "strength": 99
+    },
+    "4": {
+        "2": {
+            "offsuit": 15,
+            "suited": 70
         },
-        {
-            "strength": 78
+        "3": {
+            "offsuit": 13,
+            "suited": 26
         },
-        {
-            "strength": 16
+        "5": {
+            "offsuit": 91,
+            "suited": 80
         },
-        {
-            "strength": 35
+        "6": {
+            "offsuit": 56,
+            "suited": 73
         },
-        {
-            "strength": 97
+        "7": {
+            "offsuit": 62,
+            "suited": 70
         },
-        {
-            "strength": 26
+        "8": {
+            "offsuit": 96,
+            "suited": 81
         },
-        {
-            "strength": 12
+        "9": {
+            "offsuit": 5,
+            "suited": 25
         },
-        {
-            "strength": 67
+        "A": {
+            "offsuit": 24,
+            "suited": 95
         },
-        {
-            "strength": 10
+        "J": {
+            "offsuit": 36,
+            "suited": 5
         },
-        {
-            "strength": 33
+        "K": {
+            "offsuit": 13,
+            "suited": 57
         },
-        {
-            "strength": 79
+        "Q": {
+            "offsuit": 46,
+            "suited": 29
         },
-        {
-            "strength": 49
-        },
-        {
-            "strength": 79
+        "T": {
+            "offsuit": 84,
+            "suited": 27
         }
-    ],
-    [
-        {
-            "strength": 21
+    },
+    "5": {
+        "2": {
+            "offsuit": 82,
+            "suited": 45
         },
-        {
-            "strength": 67
+        "3": {
+            "offsuit": 14,
+            "suited": 67
         },
-        {
-            "strength": 72
+        "4": {
+            "offsuit": 34,
+            "suited": 64
         },
-        {
-            "strength": 93
+        "6": {
+            "offsuit": 43,
+            "suited": 50
         },
-        {
-            "strength": 36
+        "7": {
+            "offsuit": 87,
+            "suited": 8
         },
-        {
-            "strength": 85
+        "8": {
+            "offsuit": 76,
+            "suited": 78
         },
-        {
-            "strength": 45
+        "9": {
+            "offsuit": 88,
+            "suited": 84
         },
-        {
-            "strength": 28
+        "A": {
+            "offsuit": 39,
+            "suited": 12
         },
-        {
-            "strength": 91
+        "J": {
+            "offsuit": 54,
+            "suited": 99
         },
-        {
-            "strength": 94
+        "K": {
+            "offsuit": 76,
+            "suited": 68
         },
-        {
-            "strength": 57
+        "Q": {
+            "offsuit": 32,
+            "suited": 60
         },
-        {
-            "strength": 1
-        },
-        {
-            "strength": 53
+        "T": {
+            "offsuit": 3,
+            "suited": 51
         }
-    ],
-    [
-        {
-            "strength": 8
+    },
+    "6": {
+        "2": {
+            "offsuit": 26,
+            "suited": 86
         },
-        {
-            "strength": 44
+        "3": {
+            "offsuit": 94,
+            "suited": 39
         },
-        {
-            "strength": 68
+        "4": {
+            "offsuit": 95,
+            "suited": 70
         },
-        {
-            "strength": 90
+        "5": {
+            "offsuit": 34,
+            "suited": 78
         },
-        {
-            "strength": 24
+        "7": {
+            "offsuit": 67,
+            "suited": 1
         },
-        {
-            "strength": 96
+        "8": {
+            "offsuit": 97,
+            "suited": 2
         },
-        {
-            "strength": 30
+        "9": {
+            "offsuit": 17,
+            "suited": 92
         },
-        {
-            "strength": 3
+        "A": {
+            "offsuit": 44,
+            "suited": 19
         },
-        {
-            "strength": 22
+        "J": {
+            "offsuit": 1,
+            "suited": 80
         },
-        {
-            "strength": 66
+        "K": {
+            "offsuit": 65,
+            "suited": 89
         },
-        {
-            "strength": 49
+        "Q": {
+            "offsuit": 86,
+            "suited": 41
         },
-        {
-            "strength": 24
-        },
-        {
-            "strength": 1
+        "T": {
+            "offsuit": 52,
+            "suited": 56
         }
-    ],
-    [
-        {
-            "strength": 53
+    },
+    "7": {
+        "2": {
+            "offsuit": 40,
+            "suited": 29
         },
-        {
-            "strength": 77
+        "3": {
+            "offsuit": 31,
+            "suited": 17
         },
-        {
-            "strength": 8
+        "4": {
+            "offsuit": 97,
+            "suited": 71
         },
-        {
-            "strength": 28
+        "5": {
+            "offsuit": 81,
+            "suited": 75
         },
-        {
-            "strength": 33
+        "6": {
+            "offsuit": 9,
+            "suited": 27
         },
-        {
-            "strength": 98
+        "8": {
+            "offsuit": 67,
+            "suited": 56
         },
-        {
-            "strength": 81
+        "9": {
+            "offsuit": 97,
+            "suited": 53
         },
-        {
-            "strength": 35
+        "A": {
+            "offsuit": 32,
+            "suited": 29
         },
-        {
-            "strength": 13
+        "J": {
+            "offsuit": 6,
+            "suited": 83
         },
-        {
-            "strength": 65
+        "K": {
+            "offsuit": 28,
+            "suited": 71
         },
-        {
-            "strength": 14
+        "Q": {
+            "offsuit": 19,
+            "suited": 24
         },
-        {
-            "strength": 63
-        },
-        {
-            "strength": 36
+        "T": {
+            "offsuit": 86,
+            "suited": 65
         }
-    ],
-    [
-        {
-            "strength": 25
+    },
+    "8": {
+        "2": {
+            "offsuit": 3,
+            "suited": 19
         },
-        {
-            "strength": 69
+        "3": {
+            "offsuit": 70,
+            "suited": 68
         },
-        {
-            "strength": 15
+        "4": {
+            "offsuit": 8,
+            "suited": 15
         },
-        {
-            "strength": 94
+        "5": {
+            "offsuit": 40,
+            "suited": 49
         },
-        {
-            "strength": 29
+        "6": {
+            "offsuit": 96,
+            "suited": 23
         },
-        {
-            "strength": 1
+        "7": {
+            "offsuit": 18,
+            "suited": 45
         },
-        {
-            "strength": 17
+        "9": {
+            "offsuit": 46,
+            "suited": 51
         },
-        {
-            "strength": 95
+        "A": {
+            "offsuit": 93,
+            "suited": 0
         },
-        {
-            "strength": 5
+        "J": {
+            "offsuit": 79,
+            "suited": 88
         },
-        {
-            "strength": 4
+        "K": {
+            "offsuit": 41,
+            "suited": 50
         },
-        {
-            "strength": 51
+        "Q": {
+            "offsuit": 64,
+            "suited": 28
         },
-        {
-            "strength": 98
-        },
-        {
-            "strength": 88
+        "T": {
+            "offsuit": 21,
+            "suited": 55
         }
-    ],
-    [
-        {
-            "strength": 23
+    },
+    "9": {
+        "2": {
+            "offsuit": 34,
+            "suited": 64
         },
-        {
-            "strength": 5
+        "3": {
+            "offsuit": 24,
+            "suited": 14
         },
-        {
-            "strength": 82
+        "4": {
+            "offsuit": 87,
+            "suited": 56
         },
-        {
-            "strength": 52
+        "5": {
+            "offsuit": 43,
+            "suited": 91
         },
-        {
-            "strength": 66
+        "6": {
+            "offsuit": 27,
+            "suited": 65
         },
-        {
-            "strength": 16
+        "7": {
+            "offsuit": 59,
+            "suited": 36
         },
-        {
-            "strength": 37
+        "8": {
+            "offsuit": 32,
+            "suited": 51
         },
-        {
-            "strength": 38
+        "A": {
+            "offsuit": 29,
+            "suited": 37
         },
-        {
-            "strength": 44
+        "J": {
+            "offsuit": 75,
+            "suited": 7
         },
-        {
-            "strength": 1
+        "K": {
+            "offsuit": 58,
+            "suited": 95
         },
-        {
-            "strength": 97
+        "Q": {
+            "offsuit": 74,
+            "suited": 21
         },
-        {
-            "strength": 71
-        },
-        {
-            "strength": 28
+        "T": {
+            "offsuit": 37,
+            "suited": 28
         }
-    ],
-    [
-        {
-            "strength": 37
+    },
+    "A": {
+        "2": {
+            "offsuit": 99,
+            "suited": 96
         },
-        {
-            "strength": 58
+        "3": {
+            "offsuit": 59,
+            "suited": 73
         },
-        {
-            "strength": 77
+        "4": {
+            "offsuit": 13,
+            "suited": 68
         },
-        {
-            "strength": 97
+        "5": {
+            "offsuit": 90,
+            "suited": 95
         },
-        {
-            "strength": 94
+        "6": {
+            "offsuit": 26,
+            "suited": 66
         },
-        {
-            "strength": 4
+        "7": {
+            "offsuit": 84,
+            "suited": 40
         },
-        {
-            "strength": 9
+        "8": {
+            "offsuit": 90,
+            "suited": 84
         },
-        {
-            "strength": 31
+        "9": {
+            "offsuit": 76,
+            "suited": 42
         },
-        {
-            "strength": 45
+        "J": {
+            "offsuit": 45,
+            "suited": 56
         },
-        {
-            "strength": 75
+        "K": {
+            "offsuit": 87,
+            "suited": 12
         },
-        {
-            "strength": 35
+        "Q": {
+            "offsuit": 79,
+            "suited": 18
         },
-        {
-            "strength": 98
-        },
-        {
-            "strength": 42
+        "T": {
+            "offsuit": 36,
+            "suited": 7
         }
-    ],
-    [
-        {
-            "strength": 99
+    },
+    "J": {
+        "2": {
+            "offsuit": 24,
+            "suited": 43
         },
-        {
-            "strength": 68
+        "3": {
+            "offsuit": 70,
+            "suited": 83
         },
-        {
-            "strength": 12
+        "4": {
+            "offsuit": 90,
+            "suited": 99
         },
-        {
-            "strength": 60
+        "5": {
+            "offsuit": 72,
+            "suited": 25
         },
-        {
-            "strength": 57
+        "6": {
+            "offsuit": 44,
+            "suited": 90
         },
-        {
-            "strength": 94
+        "7": {
+            "offsuit": 5,
+            "suited": 39
         },
-        {
-            "strength": 8
+        "8": {
+            "offsuit": 54,
+            "suited": 86
         },
-        {
-            "strength": 95
+        "9": {
+            "offsuit": 69,
+            "suited": 82
         },
-        {
-            "strength": 68
+        "A": {
+            "offsuit": 48,
+            "suited": 11
         },
-        {
-            "strength": 13
+        "K": {
+            "offsuit": 55,
+            "suited": 4
         },
-        {
-            "strength": 30
+        "Q": {
+            "offsuit": 97,
+            "suited": 7
         },
-        {
-            "strength": 6
-        },
-        {
-            "strength": 62
+        "T": {
+            "offsuit": 42,
+            "suited": 64
         }
-    ],
-    [
-        {
-            "strength": 42
+    },
+    "K": {
+        "2": {
+            "offsuit": 82,
+            "suited": 58
         },
-        {
-            "strength": 65
+        "3": {
+            "offsuit": 24,
+            "suited": 37
         },
-        {
-            "strength": 82
+        "4": {
+            "offsuit": 62,
+            "suited": 24
         },
-        {
-            "strength": 52
+        "5": {
+            "offsuit": 0,
+            "suited": 36
         },
-        {
-            "strength": 67
+        "6": {
+            "offsuit": 52,
+            "suited": 99
         },
-        {
-            "strength": 21
+        "7": {
+            "offsuit": 79,
+            "suited": 50
         },
-        {
-            "strength": 95
+        "8": {
+            "offsuit": 68,
+            "suited": 71
         },
-        {
-            "strength": 12
+        "9": {
+            "offsuit": 73,
+            "suited": 31
         },
-        {
-            "strength": 71
+        "A": {
+            "offsuit": 99,
+            "suited": 81
         },
-        {
-            "strength": 1
+        "J": {
+            "offsuit": 33,
+            "suited": 94
         },
-        {
-            "strength": 90
+        "Q": {
+            "offsuit": 60,
+            "suited": 63
         },
-        {
-            "strength": 31
-        },
-        {
-            "strength": 38
+        "T": {
+            "offsuit": 81,
+            "suited": 30
         }
-    ],
-    [
-        {
-            "strength": 57
+    },
+    "Q": {
+        "2": {
+            "offsuit": 22,
+            "suited": 28
         },
-        {
-            "strength": 16
+        "3": {
+            "offsuit": 99,
+            "suited": 43
         },
-        {
-            "strength": 90
+        "4": {
+            "offsuit": 46,
+            "suited": 68
         },
-        {
-            "strength": 40
+        "5": {
+            "offsuit": 40,
+            "suited": 22
         },
-        {
-            "strength": 79
+        "6": {
+            "offsuit": 11,
+            "suited": 10
         },
-        {
-            "strength": 35
+        "7": {
+            "offsuit": 5,
+            "suited": 1
         },
-        {
-            "strength": 6
+        "8": {
+            "offsuit": 61,
+            "suited": 30
         },
-        {
-            "strength": 72
+        "9": {
+            "offsuit": 78,
+            "suited": 5
         },
-        {
-            "strength": 98
+        "A": {
+            "offsuit": 8,
+            "suited": 16
         },
-        {
-            "strength": 95
+        "J": {
+            "offsuit": 44,
+            "suited": 26
         },
-        {
-            "strength": 19
+        "K": {
+            "offsuit": 22,
+            "suited": 65
         },
-        {
-            "strength": 54
-        },
-        {
-            "strength": 23
+        "T": {
+            "offsuit": 20,
+            "suited": 36
         }
-    ],
-    [
-        {
-            "strength": 89
+    },
+    "T": {
+        "2": {
+            "offsuit": 35,
+            "suited": 93
         },
-        {
-            "strength": 60
+        "3": {
+            "offsuit": 18,
+            "suited": 28
         },
-        {
-            "strength": 5
+        "4": {
+            "offsuit": 43,
+            "suited": 11
         },
-        {
-            "strength": 26
+        "5": {
+            "offsuit": 28,
+            "suited": 29
         },
-        {
-            "strength": 23
+        "6": {
+            "offsuit": 76,
+            "suited": 4
         },
-        {
-            "strength": 6
+        "7": {
+            "offsuit": 43,
+            "suited": 63
         },
-        {
-            "strength": 13
+        "8": {
+            "offsuit": 13,
+            "suited": 38
         },
-        {
-            "strength": 70
+        "9": {
+            "offsuit": 6,
+            "suited": 40
         },
-        {
-            "strength": 38
+        "A": {
+            "offsuit": 17,
+            "suited": 96
         },
-        {
-            "strength": 94
+        "J": {
+            "offsuit": 4,
+            "suited": 18
         },
-        {
-            "strength": 20
+        "K": {
+            "offsuit": 69,
+            "suited": 17
         },
-        {
-            "strength": 44
-        },
-        {
-            "strength": 66
+        "Q": {
+            "offsuit": 28,
+            "suited": 88
         }
-    ]
-]
+    }
+}
