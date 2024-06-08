@@ -10,19 +10,44 @@ class Raise100Player(BasePokerPlayer):
         return action, amount  # always raise 100 or the maximum allowed
 
     def receive_game_start_message(self, game_info):
-        pass
+        self.game_info = game_info
+        self.current_round = 0
+        # print("Game started:", game_info)
+        print("Game started!!")
+        # print()
+        # pass
 
     def receive_round_start_message(self, round_count, hole_card, seats):
-        pass
+        self.current_round = round_count
+        self.hole_card = hole_card
+        self.seats = seats
+        # print(f"Round {round_count} started with hole cards: {hole_card} and seats: {seats}")
+        print(f"Round {round_count} started with hole cards: {hole_card}")
+        print()
+        # pass
 
     def receive_street_start_message(self, street, round_state):
-        pass
+        self.current_street = street
+        self.round_state = round_state
+        print(f"Street {street} started with round state: {round_state}")
+        print()
+        # pass
 
     def receive_game_update_message(self, action, round_state):
-        pass
+        self.last_action = action
+        self.round_state = round_state
+        print(f"Game updated with action: {action} and round state: {round_state}")
+        print()
+        # pass
 
     def receive_round_result_message(self, winners, hand_info, round_state):
-        pass
+        self.winners = winners
+        self.hand_info = hand_info
+        self.round_state = round_state
+        print(f"Round ended. Winners: {winners}, Hand info: {hand_info}, Round state: {round_state}")
+        print(f"Round {self.current_round} ended. Winners: {winners}")
+        print()
+        # pass
 
 def setup_ai():
     return Raise100Player()

@@ -12,7 +12,8 @@ def timeout(duration):
     signal.alarm(0)
 
 class BasePokerPlayer(object):
-    """Base Poker client implementation
+    """
+    Base Poker client implementation
     To create poker client, you need to override this class and
     implement following 7 methods.
     - declare_action
@@ -22,7 +23,7 @@ class BasePokerPlayer(object):
     - receive_game_update_message
     - receive_round_result_message
     """
-
+    
     def __init__(self):
         pass
 

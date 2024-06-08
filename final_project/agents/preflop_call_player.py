@@ -28,41 +28,75 @@ class CallPlayer(BasePokerPlayer):
         print(hole_card_str)
         print()
 
-        # 查找手牌胜率
         hand_data = next((item for item in winning_table if item["hand"] == hole_card_str), None)
         print('hand_data', hand_data, hand_data["win"])
-        if hand_data:
-            # print(hand_data["win"])
-            print("Found")
-        else:
-            print("Not found!!!!!!!!!!!!!!!!!")
 
-        if hand_data and hand_data["win"] < 50.0:
-            # 如果胜率小于50%，在preflop阶段弃牌
+        if hand_data and hand_data["win"] > 80.0:
+            raise_action_info = valid_actions[2]
+            action, amount = raise_action_info["action"], raise_action_info["amount"]["max"]
+
+        elif hand_data and hand_data["win"] > 70.0:
+            raise_action_info = valid_actions[2]
+            action, amount = raise_action_info["action"], min(200, raise_action_info["amount"]["max"])
+        
+        elif hand_data and hand_data["win"] > 60.0:
+            raise_action_info = valid_actions[2]
+            action, amount = raise_action_info["action"], min(100, raise_action_info["amount"]["max"])
+        
+        # if hand_data["win"] < 60.0, we call
+        elif hand_data and hand_data["win"] > 50.0:
+            call_action_info = valid_actions[1]
+            action, amount = call_action_info["action"], call_action_info["amount"]
+
+        # if hand_data["win"] < 50.0, we fold
+        else:
             print("Fold")
             fold_action_info = valid_actions[0]
             action, amount = fold_action_info["action"], fold_action_info["amount"]
-        else:
-            call_action_info = valid_actions[1]
-            action, amount = call_action_info["action"], call_action_info["amount"]
         
         print()
         return action, amount
 
     def receive_game_start_message(self, game_info):
-        pass
+        self.game_info = game_info
+        self.current_round = 0
+        # print("Game started:", game_info)
+        print("Game started!!")
+        # print()
+        # pass
 
     def receive_round_start_message(self, round_count, hole_card, seats):
         pass
+        self.current_round = round_count
+        self.hole_card = hole_card
+        self.seats = seats
+        # print(f"Round {round_count} started with hole cards: {hole_card} and seats: {seats}")
+        print(f"Round {round_count} started with hole cards: {hole_card}")
+        print()
+        # pass
 
     def receive_street_start_message(self, street, round_state):
-        pass
+        self.current_street = street
+        self.round_state = round_state
+        print(f"Street {street} started with round state: {round_state}")
+        print()
+        # pass
 
     def receive_game_update_message(self, action, round_state):
-        pass
+        self.last_action = action
+        self.round_state = round_state
+        print(f"Game updated with action: {action} and round state: {round_state}")
+        print()
+        # pass
 
     def receive_round_result_message(self, winners, hand_info, round_state):
-        pass
+        self.winners = winners
+        self.hand_info = hand_info
+        self.round_state = round_state
+        print(f"Round ended. Winners: {winners}, Hand info: {hand_info}, Round state: {round_state}")
+        print(f"Round {self.current_round} ended. Winners: {winners}")
+        print()
+        # pass
 
 def setup_ai():
     return CallPlayer()
