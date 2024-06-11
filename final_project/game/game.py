@@ -14,6 +14,7 @@ def start_poker(config, verbose=2):
     for info in config.players_info:
         dealer.register_player(info["name"], info["algorithm"])
     result_message = dealer.start_game(config.max_round)
+    print()
     return _format_result(result_message)
 
 

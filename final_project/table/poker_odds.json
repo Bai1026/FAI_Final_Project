@@ -33,7 +33,7 @@
             "additional_chance": 1.81
         },
         {
-            "hand": "10/10/u",
+            "hand": "T/T/u",
             "win": 74.66,
             "lose": 24.64,
             "tie": 0.7,
@@ -97,7 +97,7 @@
             "additional_chance": 5.43
         },
         {
-            "hand": "10/A/s",
+            "hand": "T/A/s",
             "win": 63.49,
             "lose": 34.28,
             "tie": 2.23,
@@ -145,7 +145,7 @@
             "additional_chance": 8.6
         },
         {
-            "hand": "10/A/u",
+            "hand": "T/A/u",
             "win": 61.57,
             "lose": 36.12,
             "tie": 2.31,
@@ -169,7 +169,7 @@
             "additional_chance": 10.11
         },
         {
-            "hand": "10/K/s",
+            "hand": "T/A/s",
             "win": 60.59,
             "lose": 37.01,
             "tie": 2.4,
@@ -257,7 +257,7 @@
             "additional_chance": 15.99
         },
         {
-            "hand": "10/K/u",
+            "hand": "T/K/u",
             "win": 58.49,
             "lose": 39.02,
             "tie": 2.49,
@@ -265,7 +265,7 @@
             "additional_chance": 16.89
         },
         {
-            "hand": "10/Q/s",
+            "hand": "T/Q/s",
             "win": 58.17,
             "lose": 39.24,
             "tie": 2.59,
@@ -353,7 +353,7 @@
             "additional_chance": 23.23
         },
         {
-            "hand": "10/J/s",
+            "hand": "T/J/s",
             "win": 56.15,
             "lose": 41.1,
             "tie": 2.75,
@@ -369,7 +369,7 @@
             "additional_chance": 23.83
         },
         {
-            "hand": "10/Q/u",
+            "hand": "T/Q/u",
             "win": 55.95,
             "lose": 41.37,
             "tie": 2.69,
@@ -449,7 +449,7 @@
             "additional_chance": 30.02
         },
         {
-            "hand": "10/J/u",
+            "hand": "T/J/u",
             "win": 53.83,
             "lose": 43.33,
             "tie": 2.84,
@@ -505,7 +505,7 @@
             "additional_chance": 34.54
         },
         {
-            "hand": "9/10/s",
+            "hand": "9/T/s",
             "win": 52.38,
             "lose": 44.32,
             "tie": 3.3,
@@ -577,7 +577,7 @@
             "additional_chance": 39.22
         },
         {
-            "hand": "8/10/s",
+            "hand": "8/T/s",
             "win": 50.51,
             "lose": 45.84,
             "tie": 3.65,
@@ -617,7 +617,7 @@
             "additional_chance": 41.93
         },
         {
-            "hand": "9/10/u",
+            "hand": "9/T/u",
             "win": 49.82,
             "lose": 46.75,
             "tie": 3.43,
@@ -665,7 +665,7 @@
             "additional_chance": 46.15
         },
         {
-            "hand": "7/10/s",
+            "hand": "7/T/s",
             "win": 48.65,
             "lose": 47.37,
             "tie": 3.98,
@@ -721,7 +721,7 @@
             "additional_chance": 49.62
         },
         {
-            "hand": "8/10/u",
+            "hand": "8/T/u",
             "win": 47.82,
             "lose": 48.38,
             "tie": 3.81,
@@ -761,7 +761,7 @@
             "additional_chance": 52.94
         },
         {
-            "hand": "6/10/s",
+            "hand": "6/T/s",
             "win": 46.8,
             "lose": 48.92,
             "tie": 4.28,
@@ -801,7 +801,7 @@
             "additional_chance": 55.66
         },
         {
-            "hand": "7/10/u",
+            "hand": "7/T/u",
             "win": 45.83,
             "lose": 50.01,
             "tie": 4.16,
@@ -841,7 +841,7 @@
             "additional_chance": 58.97
         },
         {
-            "hand": "5/10/s",
+            "hand": "5/T/s",
             "win": 44.94,
             "lose": 50.51,
             "tie": 4.55,
@@ -857,7 +857,7 @@
             "additional_chance": 60.18
         },
         {
-            "hand": "4/10/s",
+            "hand": "4/T/s",
             "win": 44.2,
             "lose": 51.14,
             "tie": 4.65,
@@ -889,7 +889,7 @@
             "additional_chance": 62.59
         },
         {
-            "hand": "6/10/u",
+            "hand": "6/T/u",
             "win": 43.85,
             "lose": 51.66,
             "tie": 4.49,
@@ -905,7 +905,7 @@
             "additional_chance": 63.8
         },
         {
-            "hand": "3/10/s",
+            "hand": "3/T/s",
             "win": 43.38,
             "lose": 51.99,
             "tie": 4.63,
@@ -937,7 +937,7 @@
             "additional_chance": 66.21
         },
         {
-            "hand": "2/10/s",
+            "hand": "2/T/s",
             "win": 42.54,
             "lose": 52.86,
             "tie": 4.6,
@@ -969,7 +969,7 @@
             "additional_chance": 68.63
         },
         {
-            "hand": "5/10/u",
+            "hand": "5/T/u",
             "win": 41.86,
             "lose": 53.36,
             "tie": 4.79,
@@ -993,7 +993,7 @@
             "additional_chance": 70.14
         },
         {
-            "hand": "4/10/u",
+            "hand": "4/T/u",
             "win": 41.06,
             "lose": 54.05,
             "tie": 4.9,
@@ -1041,7 +1041,7 @@
             "additional_chance": 73.76
         },
         {
-            "hand": "3/10/u",
+            "hand": "3/T/u",
             "win": 40.16,
             "lose": 54.97,
             "tie": 4.88,
@@ -1073,7 +1073,7 @@
             "additional_chance": 76.17
         },
         {
-            "hand": "2/10/u",
+            "hand": "2/T/u",
             "win": 39.24,
             "lose": 55.9,
             "tie": 4.86,

@@ -54,6 +54,8 @@ class Dealer:
                 state, msgs = RoundManager.apply_action(state, action, bet_amount)
             else:  # finish the round after publish round result
                 self.__publish_messages(msgs)
+                print('===================================================================================================')
+                print()
                 break
 
         return state["table"]

@@ -112,6 +112,7 @@ class CallPlayer(BasePokerPlayer):
         elif len(community_cards) == 3:
             print(valid_actions[2])
             print("Flop")
+
             hole_cards_str = [f"{card[1]}{card[0]}" for card in hole_card]
             # print(f"Hole cards string: {hole_cards_str}")
             # print(f"Community cards: {community_cards}")
@@ -121,23 +122,8 @@ class CallPlayer(BasePokerPlayer):
             print(f"Winning Rate: {winning_rate}%")
             print()
 
-            if winning_rate > 80.0:
-                raise_action_info = valid_actions[2]
-                action, amount = raise_action_info["action"], raise_action_info["amount"]["max"]
-            elif winning_rate > 60.0:
-                raise_amount = 20
-                raise_action_info = valid_actions[2]
-                if raise_action_info["amount"]["min"] > raise_amount:
-                    call_action_info = valid_actions[1]
-                    action, amount = call_action_info["action"], call_action_info["amount"]
-                else:
-                    action, amount = raise_action_info["action"], min(raise_amount, raise_action_info["amount"]["max"])
-            elif winning_rate > 40.0:
-                call_action_info = valid_actions[1]
-                action, amount = call_action_info["action"], call_action_info["amount"]
-            else:
-                fold_action_info = valid_actions[0]
-                action, amount = fold_action_info["action"], fold_action_info["amount"]
+            call_action_info = valid_actions[1]
+            action, amount = call_action_info["action"], call_action_info["amount"]
 
 
         # ====================================================== TURN ======================================================

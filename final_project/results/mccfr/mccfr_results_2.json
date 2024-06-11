@@ -1,0 +1,50 @@
+{
+    "baseline0": {
+        "wins": 38,
+        "losses": 32,
+        "draws": 0,
+        "winning_rate": 0.543
+    },
+    "baseline1": {
+        "wins": 41,
+        "losses": 38,
+        "draws": 0,
+        "winning_rate": 0.519
+    },
+    "baseline2": {
+        "wins": 22,
+        "losses": 33,
+        "draws": 0,
+        "winning_rate": 0.4
+    },
+    "baseline3": {
+        "wins": 42,
+        "losses": 23,
+        "draws": 2,
+        "winning_rate": 0.646
+    },
+    "baseline4": {
+        "wins": 15,
+        "losses": 44,
+        "draws": 0,
+        "winning_rate": 0.254
+    },
+    "baseline5": {
+        "wins": 25,
+        "losses": 31,
+        "draws": 0,
+        "winning_rate": 0.446
+    },
+    "baseline6": {
+        "wins": 19,
+        "losses": 39,
+        "draws": 0,
+        "winning_rate": 0.327
+    },
+    "baseline7": {
+        "wins": 5,
+        "losses": 51,
+        "draws": 0,
+        "winning_rate": 0.09
+    }
+}

@@ -1,0 +1,1125 @@
+2024-06-12 04:52:45,103 - INFO - Declare action: state=['CK', 'D9']|[]|990|990, action=fold, amount=0
+2024-06-12 04:52:45,104 - INFO - Updated Q-value for state: ['CK', 'D9']|[]|990|990, action: fold, reward: -1, next state: terminal
+2024-06-12 04:52:45,104 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:52:45,104 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qraybjfowjtkpeqmqaepdt', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['CK', 'D9']|['C2', 'C9', 'CQ', 'S4', 'D8']|990|1010, next_state=terminal
+2024-06-12 04:52:45,104 - INFO - Declare action: state=['HT', 'CJ']|[]|985|1000, action=fold, amount=0
+2024-06-12 04:52:45,105 - INFO - Updated Q-value for state: ['HT', 'CJ']|[]|985|1000, action: fold, reward: -1, next state: terminal
+2024-06-12 04:52:45,105 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:52:45,106 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qraybjfowjtkpeqmqaepdt', 'stack': 1015, 'state': 'participating'}], reward=-1, state=['HT', 'CJ']|['C8', 'ST', 'D5', 'C5', 'S9']|985|1015, next_state=terminal
+2024-06-12 04:52:45,258 - INFO - Declare action: state=['H8', 'S3']|[]|975|1005, action=fold, amount=0
+2024-06-12 04:52:45,258 - INFO - Updated Q-value for state: ['H8', 'S3']|[]|975|1005, action: fold, reward: -1, next state: terminal
+2024-06-12 04:52:45,258 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:52:45,258 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qraybjfowjtkpeqmqaepdt', 'stack': 1025, 'state': 'participating'}], reward=-1, state=['H8', 'S3']|['HT', 'H2', 'SQ', 'CA', 'H6']|975|1025, next_state=terminal
+2024-06-12 04:52:45,259 - INFO - Declare action: state=['D4', 'S6']|[]|970|1015, action=raise, amount=115
+2024-06-12 04:52:45,365 - INFO - Declare action: state=['D4', 'S6']|['H6', 'D9', 'DJ']|860|910, action=raise, amount=102
+2024-06-12 04:52:45,554 - INFO - Declare action: state=['D4', 'S6']|['H6', 'D9', 'DJ']|758|656.25, action=fold, amount=0
+2024-06-12 04:52:45,555 - INFO - Updated Q-value for state: ['D4', 'S6']|['H6', 'D9', 'DJ']|758|656.25, action: fold, reward: -1, next state: terminal
+2024-06-12 04:52:45,555 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:52:45,555 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qraybjfowjtkpeqmqaepdt', 'stack': 1241.25, 'state': 'participating'}], reward=-1, state=['D4', 'S6']|['H6', 'D9', 'DJ', 'S3', 'C9']|758|1241.25, next_state=terminal
+2024-06-12 04:52:45,765 - INFO - Declare action: state=['C5', 'S9']|[]|748|1231.25, action=fold, amount=0
+2024-06-12 04:52:45,766 - INFO - Updated Q-value for state: ['C5', 'S9']|[]|748|1231.25, action: fold, reward: -1, next state: terminal
+2024-06-12 04:52:45,766 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:52:45,766 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qraybjfowjtkpeqmqaepdt', 'stack': 1251.25, 'state': 'participating'}], reward=-1, state=['C5', 'S9']|['H9', 'S5', 'S7', 'CT', 'CQ']|748|1251.25, next_state=terminal
+2024-06-12 04:52:45,767 - INFO - Declare action: state=['D5', 'CA']|[]|743|1241.25, action=call, amount=0
+2024-06-12 04:52:45,768 - INFO - Updated Q-value for state: ['D5', 'CA']|[]|743|1241.25, action: call, reward: -1, next state: terminal
+2024-06-12 04:52:45,768 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:52:45,768 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qraybjfowjtkpeqmqaepdt', 'stack': 1256.25, 'state': 'participating'}], reward=-1, state=['D5', 'CA']|['S4', 'D4', 'H3', 'HJ', 'C3']|743|1256.25, next_state=terminal
+2024-06-12 04:52:45,934 - INFO - Declare action: state=['S7', 'S2']|[]|733|1246.25, action=raise, amount=577
+2024-06-12 04:52:46,269 - INFO - Declare action: state=['S7', 'S2']|['C6', 'C8', 'C3']|166|366.4375, action=call, amount=0
+2024-06-12 04:52:46,270 - INFO - Updated Q-value for state: ['S7', 'S2']|['C6', 'C8', 'C3']|166|366.4375, action: call, reward: -1, next state: terminal
+2024-06-12 04:52:46,270 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:52:46,270 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qraybjfowjtkpeqmqaepdt', 'stack': 1832.4375, 'state': 'participating'}], reward=-1, state=['S7', 'S2']|['C6', 'C8', 'C3', 'H4', 'C7']|166|1832.4375, next_state=terminal
+2024-06-12 04:52:46,271 - INFO - Declare action: state=['S5', 'S3']|[]|161|1822.4375, action=call, amount=0
+2024-06-12 04:52:46,272 - INFO - Updated Q-value for state: ['S5', 'S3']|[]|161|1822.4375, action: call, reward: -1, next state: terminal
+2024-06-12 04:52:46,272 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:52:46,272 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qraybjfowjtkpeqmqaepdt', 'stack': 1837.4375, 'state': 'participating'}], reward=-1, state=['S5', 'S3']|['D5', 'C3', 'S6', 'H7', 'HQ']|161|1837.4375, next_state=terminal
+2024-06-12 04:52:46,482 - INFO - Declare action: state=['ST', 'S2']|[]|151|1827.4375, action=call, amount=0
+2024-06-12 04:52:46,484 - INFO - Updated Q-value for state: ['ST', 'S2']|[]|151|1827.4375, action: call, reward: -1, next state: terminal
+2024-06-12 04:52:46,484 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:52:46,484 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qraybjfowjtkpeqmqaepdt', 'stack': 1847.4375, 'state': 'participating'}], reward=-1, state=['ST', 'S2']|['S6', 'SK', 'D9', 'CT', 'C8']|151|1847.4375, next_state=terminal
+2024-06-12 04:52:46,484 - INFO - Declare action: state=['C3', 'S8']|[]|146|1837.4375, action=raise, amount=117
+2024-06-12 04:52:46,590 - INFO - Declare action: state=['C3', 'S8']|['S2', 'HQ', 'D9']|34|1730.4375, action=raise, amount=20
+2024-06-12 04:52:46,749 - INFO - Declare action: state=['C3', 'S8']|['S2', 'HQ', 'D9']|14|1271.078125, action=call, amount=0
+2024-06-12 04:52:46,750 - INFO - Updated Q-value for state: ['C3', 'S8']|['S2', 'HQ', 'D9']|14|1271.078125, action: call, reward: -1, next state: terminal
+2024-06-12 04:52:46,750 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:52:46,750 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qraybjfowjtkpeqmqaepdt', 'stack': 1984.078125, 'state': 'participating'}], reward=-1, state=['C3', 'S8']|['S2', 'HQ', 'D9', 'H6', 'D6']|14|1984.078125, next_state=terminal
+2024-06-12 04:52:46,942 - INFO - Declare action: state=['S7', 'C9']|[]|4|1974.078125, action=call, amount=0
+2024-06-12 04:52:46,942 - INFO - Updated Q-value for state: ['S7', 'C9']|[]|4|1974.078125, action: call, reward: -1, next state: terminal
+2024-06-12 04:52:46,942 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:52:46,942 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qraybjfowjtkpeqmqaepdt', 'stack': 1994.078125, 'state': 'participating'}], reward=-1, state=['S7', 'C9']|['S6', 'H9', 'S3', 'H2', 'HA']|4|1994.078125, next_state=terminal
+2024-06-12 04:52:46,943 - INFO - Round 1: Results - {'baseline0': {'wins': 0, 'losses': 0, 'draws': 0}, 'baseline1': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline2': {'wins': 0, 'losses': 0, 'draws': 0}, 'baseline3': {'wins': 0, 'losses': 0, 'draws': 0}, 'baseline4': {'wins': 0, 'losses': 0, 'draws': 0}, 'baseline5': {'wins': 0, 'losses': 0, 'draws': 0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0}}
+2024-06-12 04:52:46,943 - INFO - Training completed and model saved.
+2024-06-12 04:53:02,408 - INFO - Declare action: state=['SQ', 'HT']|[]|990|975, action=call, amount=0
+2024-06-12 04:53:02,409 - INFO - Updated Q-value for state: ['SQ', 'HT']|[]|990|975, action: call, reward: -1, next state: terminal
+2024-06-12 04:53:02,409 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:53:02,409 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'kwznebeitwtivmwgdlbxpq', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['SQ', 'HT']|['DT', 'CQ', 'SA', 'HJ', 'C9']|990|1010, next_state=terminal
+2024-06-12 04:53:02,409 - INFO - Declare action: state=['CQ', 'S7']|[]|985|1000, action=raise, amount=53
+2024-06-12 04:53:02,410 - INFO - Updated Q-value for state: ['CQ', 'S7']|[]|985|1000, action: raise, reward: 1, next state: terminal
+2024-06-12 04:53:02,410 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:53:02,410 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'rnpkwlcgvntnnlznrmpdvc', 'stack': 1000, 'state': 'participating'}], reward=1, state=['CQ', 'S7']|['D9', 'S3', 'D8', 'DJ', 'D3']|1000|1000, next_state=terminal
+2024-06-12 04:53:02,410 - INFO - Declare action: state=['D2', 'H5']|[]|990|975, action=call, amount=0
+2024-06-12 04:53:02,411 - INFO - Updated Q-value for state: ['D2', 'H5']|[]|990|975, action: call, reward: -1, next state: terminal
+2024-06-12 04:53:02,411 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:53:02,411 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'kwznebeitwtivmwgdlbxpq', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['D2', 'H5']|['SA', 'C7', 'HJ', 'D3', 'H2']|990|1010, next_state=terminal
+2024-06-12 04:53:02,411 - INFO - Declare action: state=['D8', 'DK']|[]|985|1000, action=raise, amount=315
+2024-06-12 04:53:02,412 - INFO - Updated Q-value for state: ['D8', 'DK']|[]|985|1000, action: raise, reward: 1, next state: terminal
+2024-06-12 04:53:02,412 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:53:02,412 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'rnpkwlcgvntnnlznrmpdvc', 'stack': 1000, 'state': 'participating'}], reward=1, state=['D8', 'DK']|['S6', 'DA', 'H5', 'C8', 'H9']|1000|1000, next_state=terminal
+2024-06-12 04:53:02,412 - INFO - Declare action: state=['C3', 'SQ']|[]|990|975, action=raise, amount=299
+2024-06-12 04:53:02,413 - INFO - Declare action: state=['C3', 'SQ']|['H4', 'H7', 'C2']|701|0, action=call, amount=0
+2024-06-12 04:53:02,414 - INFO - Updated Q-value for state: ['C3', 'SQ']|['H4', 'H7', 'C2']|701|0, action: call, reward: -1, next state: terminal
+2024-06-12 04:53:02,414 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:53:02,414 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'kwznebeitwtivmwgdlbxpq', 'stack': 1299, 'state': 'allin'}], reward=-1, state=['C3', 'SQ']|['H4', 'H7', 'C2', 'D8', 'SK']|701|1299, next_state=terminal
+2024-06-12 04:53:02,414 - INFO - Declare action: state=['HK', 'C5']|[]|696|1289, action=fold, amount=0
+2024-06-12 04:53:02,414 - INFO - Updated Q-value for state: ['HK', 'C5']|[]|696|1289, action: fold, reward: -1, next state: terminal
+2024-06-12 04:53:02,414 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:53:02,414 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'kwznebeitwtivmwgdlbxpq', 'stack': 1304, 'state': 'participating'}], reward=-1, state=['HK', 'C5']|['CT', 'H9', 'D3', 'C9', 'D4']|696|1304, next_state=terminal
+2024-06-12 04:53:02,415 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:53:02,415 - INFO - Declare action: state=['C8', 'S5']|[]|696|1289, action=fold, amount=0
+2024-06-12 04:53:02,416 - INFO - Updated Q-value for state: ['C8', 'S5']|[]|696|1289, action: fold, reward: -1, next state: terminal
+2024-06-12 04:53:02,416 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:53:02,416 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'kwznebeitwtivmwgdlbxpq', 'stack': 1304, 'state': 'participating'}], reward=-1, state=['C8', 'S5']|['DT', 'HT', 'DJ', 'DQ', 'S3']|696|1304, next_state=terminal
+2024-06-12 04:53:02,417 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:53:02,417 - INFO - Declare action: state=['C8', 'S2']|[]|696|1289, action=call, amount=0
+2024-06-12 04:53:02,417 - INFO - Updated Q-value for state: ['C8', 'S2']|[]|696|1289, action: call, reward: -1, next state: terminal
+2024-06-12 04:53:02,417 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:53:02,418 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'kwznebeitwtivmwgdlbxpq', 'stack': 1304, 'state': 'participating'}], reward=-1, state=['C8', 'S2']|['C7', 'SK', 'D8', 'H8', 'C3']|696|1304, next_state=terminal
+2024-06-12 04:53:02,418 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:53:02,418 - INFO - Declare action: state=['SA', 'DK']|[]|696|1289, action=fold, amount=0
+2024-06-12 04:53:02,419 - INFO - Updated Q-value for state: ['SA', 'DK']|[]|696|1289, action: fold, reward: -1, next state: terminal
+2024-06-12 04:53:02,419 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:53:02,419 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'kwznebeitwtivmwgdlbxpq', 'stack': 1304, 'state': 'participating'}], reward=-1, state=['SA', 'DK']|['HQ', 'S8', 'SQ', 'C7', 'CJ']|696|1304, next_state=terminal
+2024-06-12 04:53:02,420 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:53:02,420 - INFO - Declare action: state=['DJ', 'D5']|[]|696|1289, action=fold, amount=0
+2024-06-12 04:53:02,420 - INFO - Updated Q-value for state: ['DJ', 'D5']|[]|696|1289, action: fold, reward: -1, next state: terminal
+2024-06-12 04:53:02,420 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:53:02,421 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'kwznebeitwtivmwgdlbxpq', 'stack': 1304, 'state': 'participating'}], reward=-1, state=['DJ', 'D5']|['S8', 'H6', 'D8', 'H4', 'C2']|696|1304, next_state=terminal
+2024-06-12 04:53:02,421 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:53:02,421 - INFO - Declare action: state=['CJ', 'H7']|[]|696|1289, action=raise, amount=109
+2024-06-12 04:53:02,422 - INFO - Updated Q-value for state: ['CJ', 'H7']|[]|696|1289, action: raise, reward: 1, next state: terminal
+2024-06-12 04:53:02,422 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:53:02,422 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'rnpkwlcgvntnnlznrmpdvc', 'stack': 711, 'state': 'participating'}], reward=1, state=['CJ', 'H7']|['CK', 'DA', 'DT', 'H6', 'HJ']|711|1289, next_state=terminal
+2024-06-12 04:53:02,423 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:53:02,423 - INFO - Declare action: state=['S5', 'HA']|[]|711|1274, action=fold, amount=0
+2024-06-12 04:53:02,424 - INFO - Updated Q-value for state: ['S5', 'HA']|[]|711|1274, action: fold, reward: -1, next state: terminal
+2024-06-12 04:53:02,424 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:53:02,424 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'kwznebeitwtivmwgdlbxpq', 'stack': 1289, 'state': 'participating'}], reward=-1, state=['S5', 'HA']|['D2', 'H3', 'DT', 'SA', 'S3']|711|1289, next_state=terminal
+2024-06-12 04:53:02,424 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:53:02,425 - INFO - Declare action: state=['CA', 'CQ']|[]|711|1274, action=call, amount=0
+2024-06-12 04:53:02,425 - INFO - Updated Q-value for state: ['CA', 'CQ']|[]|711|1274, action: call, reward: -1, next state: terminal
+2024-06-12 04:53:02,425 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:53:02,425 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'kwznebeitwtivmwgdlbxpq', 'stack': 1289, 'state': 'participating'}], reward=-1, state=['CA', 'CQ']|['H9', 'C9', 'SA', 'ST', 'C3']|711|1289, next_state=terminal
+2024-06-12 04:53:02,425 - INFO - Round 1: Results - {'baseline0': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline1': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline2': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline3': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline4': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline5': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline7': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}}
+2024-06-12 04:53:02,426 - INFO - Training completed and model saved.
+2024-06-12 04:55:37,334 - INFO - Declare action: state=['CT', 'D7']|[]|990|990, action=raise, amount=650
+2024-06-12 04:55:37,335 - INFO - Declare action: state=['CT', 'D7']|['D9', 'S7', 'DJ']|350|350, action=fold, amount=0
+2024-06-12 04:55:37,336 - INFO - Updated Q-value for state: ['CT', 'D7']|['D9', 'S7', 'DJ']|350|350, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:37,336 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:37,336 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hvobhtuqswgaicbbclbevq', 'stack': 1650, 'state': 'participating'}], reward=-1, state=['CT', 'D7']|['D9', 'S7', 'DJ', 'HA', 'C8']|350|1650, next_state=terminal
+2024-06-12 04:55:37,337 - INFO - Declare action: state=['H3', 'S4']|[]|345|1640, action=fold, amount=0
+2024-06-12 04:55:37,338 - INFO - Updated Q-value for state: ['H3', 'S4']|[]|345|1640, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:37,338 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:37,338 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hvobhtuqswgaicbbclbevq', 'stack': 1655, 'state': 'participating'}], reward=-1, state=['H3', 'S4']|['CA', 'D8', 'D4', 'D7', 'D3']|345|1655, next_state=terminal
+2024-06-12 04:55:37,339 - INFO - Declare action: state=['C3', 'DT']|[]|335|1645, action=fold, amount=0
+2024-06-12 04:55:37,339 - INFO - Updated Q-value for state: ['C3', 'DT']|[]|335|1645, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:37,339 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:37,339 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hvobhtuqswgaicbbclbevq', 'stack': 1665, 'state': 'participating'}], reward=-1, state=['C3', 'DT']|['H2', 'H4', 'S8', 'D4', 'DQ']|335|1665, next_state=terminal
+2024-06-12 04:55:37,339 - INFO - Declare action: state=['DQ', 'C9']|[]|330|1655, action=raise, amount=315
+2024-06-12 04:55:37,340 - INFO - Declare action: state=['DQ', 'C9']|['S3', 'C6', 'D6']|20|1350, action=fold, amount=0
+2024-06-12 04:55:37,341 - INFO - Updated Q-value for state: ['DQ', 'C9']|['S3', 'C6', 'D6']|20|1350, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:37,341 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:37,341 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hvobhtuqswgaicbbclbevq', 'stack': 1980, 'state': 'participating'}], reward=-1, state=['DQ', 'C9']|['S3', 'C6', 'D6', 'D4', 'S7']|20|1980, next_state=terminal
+2024-06-12 04:55:37,341 - INFO - Declare action: state=['D7', 'C5']|[]|10|1970, action=call, amount=0
+2024-06-12 04:55:37,342 - INFO - Updated Q-value for state: ['D7', 'C5']|[]|10|1970, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:37,342 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:37,342 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hvobhtuqswgaicbbclbevq', 'stack': 1990, 'state': 'participating'}], reward=-1, state=['D7', 'C5']|['CJ', 'HJ', 'CT', 'H5', 'D9']|10|1990, next_state=terminal
+2024-06-12 04:55:37,343 - INFO - Declare action: state=['CA', 'C3']|[]|5|1980, action=call, amount=0
+2024-06-12 04:55:37,343 - INFO - Updated Q-value for state: ['CA', 'C3']|[]|5|1980, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:37,343 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:37,343 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hvobhtuqswgaicbbclbevq', 'stack': 1995, 'state': 'participating'}], reward=-1, state=['CA', 'C3']|['CK', 'SQ', 'H8', 'H4', 'H2']|5|1995, next_state=terminal
+2024-06-12 04:55:37,343 - INFO - Round 1/1 against baseline0: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline2': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline3': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline4': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline5': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:55:37,548 - INFO - Declare action: state=['SJ', 'HK']|[]|990|990, action=call, amount=0
+2024-06-12 04:55:37,549 - INFO - Updated Q-value for state: ['SJ', 'HK']|[]|990|990, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:37,550 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:37,550 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yymuqugowxeqkbnyvbxghs', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['SJ', 'HK']|['S7', 'H3', 'HQ', 'S9', 'S2']|990|1010, next_state=terminal
+2024-06-12 04:55:37,550 - INFO - Declare action: state=['D2', 'H5']|[]|985|1000, action=fold, amount=0
+2024-06-12 04:55:37,551 - INFO - Updated Q-value for state: ['D2', 'H5']|[]|985|1000, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:37,551 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:37,551 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yymuqugowxeqkbnyvbxghs', 'stack': 1015, 'state': 'participating'}], reward=-1, state=['D2', 'H5']|['S2', 'D9', 'D7', 'C7', 'C6']|985|1015, next_state=terminal
+2024-06-12 04:55:37,742 - INFO - Declare action: state=['D6', 'CK']|[]|975|1005, action=fold, amount=0
+2024-06-12 04:55:37,743 - INFO - Updated Q-value for state: ['D6', 'CK']|[]|975|1005, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:37,743 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:37,743 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yymuqugowxeqkbnyvbxghs', 'stack': 1025, 'state': 'participating'}], reward=-1, state=['D6', 'CK']|['D8', 'H5', 'HJ', 'SQ', 'HQ']|975|1025, next_state=terminal
+2024-06-12 04:55:37,744 - INFO - Declare action: state=['D5', 'C7']|[]|970|1015, action=call, amount=0
+2024-06-12 04:55:37,745 - INFO - Updated Q-value for state: ['D5', 'C7']|[]|970|1015, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:37,745 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:37,745 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yymuqugowxeqkbnyvbxghs', 'stack': 1030, 'state': 'participating'}], reward=-1, state=['D5', 'C7']|['C6', 'CA', 'H3', 'C3', 'D2']|970|1030, next_state=terminal
+2024-06-12 04:55:37,881 - INFO - Declare action: state=['H5', 'HT']|[]|960|1020, action=fold, amount=0
+2024-06-12 04:55:37,882 - INFO - Updated Q-value for state: ['H5', 'HT']|[]|960|1020, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:37,882 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:37,882 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yymuqugowxeqkbnyvbxghs', 'stack': 1040, 'state': 'participating'}], reward=-1, state=['H5', 'HT']|['S8', 'SQ', 'DT', 'C6', 'CA']|960|1040, next_state=terminal
+2024-06-12 04:55:37,882 - INFO - Declare action: state=['CT', 'H3']|[]|955|1030, action=fold, amount=0
+2024-06-12 04:55:37,883 - INFO - Updated Q-value for state: ['CT', 'H3']|[]|955|1030, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:37,883 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:37,883 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yymuqugowxeqkbnyvbxghs', 'stack': 1045, 'state': 'participating'}], reward=-1, state=['CT', 'H3']|['SJ', 'HQ', 'D6', 'DT', 'SA']|955|1045, next_state=terminal
+2024-06-12 04:55:38,019 - INFO - Declare action: state=['DJ', 'D5']|[]|945|1035, action=fold, amount=0
+2024-06-12 04:55:38,021 - INFO - Updated Q-value for state: ['DJ', 'D5']|[]|945|1035, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:38,021 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:38,021 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yymuqugowxeqkbnyvbxghs', 'stack': 1055, 'state': 'participating'}], reward=-1, state=['DJ', 'D5']|['H3', 'D2', 'C7', 'DK', 'HT']|945|1055, next_state=terminal
+2024-06-12 04:55:38,021 - INFO - Declare action: state=['D3', 'C3']|[]|940|1045, action=call, amount=0
+2024-06-12 04:55:38,022 - INFO - Updated Q-value for state: ['D3', 'C3']|[]|940|1045, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:38,022 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:38,023 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yymuqugowxeqkbnyvbxghs', 'stack': 1060, 'state': 'participating'}], reward=-1, state=['D3', 'C3']|['S9', 'SK', 'DJ', 'CQ', 'H8']|940|1060, next_state=terminal
+2024-06-12 04:55:38,171 - INFO - Declare action: state=['S5', 'HQ']|[]|930|1050, action=call, amount=0
+2024-06-12 04:55:38,171 - INFO - Updated Q-value for state: ['S5', 'HQ']|[]|930|1050, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:38,171 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:38,171 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yymuqugowxeqkbnyvbxghs', 'stack': 1070, 'state': 'participating'}], reward=-1, state=['S5', 'HQ']|['D2', 'CT', 'HJ', 'S7', 'C3']|930|1070, next_state=terminal
+2024-06-12 04:55:38,172 - INFO - Declare action: state=['D4', 'S5']|[]|925|1060, action=fold, amount=0
+2024-06-12 04:55:38,172 - INFO - Updated Q-value for state: ['D4', 'S5']|[]|925|1060, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:38,172 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:38,172 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yymuqugowxeqkbnyvbxghs', 'stack': 1075, 'state': 'participating'}], reward=-1, state=['D4', 'S5']|['H9', 'CQ', 'HJ', 'CJ', 'S7']|925|1075, next_state=terminal
+2024-06-12 04:55:38,284 - INFO - Declare action: state=['S2', 'H3']|[]|915|1065, action=raise, amount=114
+2024-06-12 04:55:38,502 - INFO - Declare action: state=['S2', 'H3']|['HK', 'S4', 'H6']|811|961, action=call, amount=0
+2024-06-12 04:55:38,700 - INFO - Declare action: state=['S2', 'H3']|['HK', 'S4', 'H6', 'C6']|811|961, action=raise, amount=454
+2024-06-12 04:55:39,113 - INFO - Updated Q-value for state: ['S2', 'H3']|['HK', 'S4', 'H6', 'C6']|811|961, action: raise, reward: 1, next state: terminal
+2024-06-12 04:55:39,114 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:55:39,114 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'lrdkblpcrxoqoyqqpdftgd', 'stack': 1493, 'state': 'participating'}], reward=1, state=['S2', 'H3']|['HK', 'S4', 'H6', 'C6', 'CJ']|1493|507, next_state=terminal
+2024-06-12 04:55:39,114 - INFO - Declare action: state=['DK', 'SJ']|[]|1488|497, action=fold, amount=0
+2024-06-12 04:55:39,115 - INFO - Updated Q-value for state: ['DK', 'SJ']|[]|1488|497, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:39,115 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:39,115 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yymuqugowxeqkbnyvbxghs', 'stack': 512, 'state': 'participating'}], reward=-1, state=['DK', 'SJ']|['S2', 'CJ', 'H2', 'C2', 'D9']|1488|512, next_state=terminal
+2024-06-12 04:55:39,303 - INFO - Declare action: state=['C5', 'S5']|[]|1478|502, action=raise, amount=225
+2024-06-12 04:55:39,623 - INFO - Updated Q-value for state: ['C5', 'S5']|[]|1478|502, action: raise, reward: 1, next state: terminal
+2024-06-12 04:55:39,623 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:55:39,623 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'lrdkblpcrxoqoyqqpdftgd', 'stack': 1713, 'state': 'participating'}], reward=1, state=['C5', 'S5']|['SK', 'C8', 'DA', 'C3', 'D4']|1713|287, next_state=terminal
+2024-06-12 04:55:39,623 - INFO - Declare action: state=['DK', 'D2']|[]|1708|277, action=fold, amount=0
+2024-06-12 04:55:39,624 - INFO - Updated Q-value for state: ['DK', 'D2']|[]|1708|277, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:39,624 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:39,625 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yymuqugowxeqkbnyvbxghs', 'stack': 292, 'state': 'participating'}], reward=-1, state=['DK', 'D2']|['D6', 'D4', 'D8', 'DA', 'D5']|1708|292, next_state=terminal
+2024-06-12 04:55:39,838 - INFO - Declare action: state=['S3', 'SA']|[]|1698|282, action=raise, amount=792
+2024-06-12 04:55:39,942 - INFO - Updated Q-value for state: ['S3', 'SA']|[]|1698|282, action: raise, reward: 1, next state: terminal
+2024-06-12 04:55:39,943 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:55:39,943 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'lrdkblpcrxoqoyqqpdftgd', 'stack': 2000, 'state': 'participating'}], reward=1, state=['S3', 'SA']|['D2', 'DJ', 'HA', 'CA', 'S9']|2000|0, next_state=terminal
+2024-06-12 04:55:39,943 - INFO - Round 1/1 against baseline1: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline2': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline3': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline4': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline5': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:55:40,623 - INFO - Declare action: state=['H9', 'CT']|[]|990|990, action=fold, amount=0
+2024-06-12 04:55:40,624 - INFO - Updated Q-value for state: ['H9', 'CT']|[]|990|990, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:40,624 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:40,624 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'euoxoxnbcblzlxigmxzbop', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['H9', 'CT']|['DJ', 'H4', 'HQ', 'D7', 'C9']|990|1010, next_state=terminal
+2024-06-12 04:55:40,625 - INFO - Declare action: state=['D4', 'C9']|[]|985|1000, action=raise, amount=279
+2024-06-12 04:55:41,178 - INFO - Declare action: state=['D4', 'C9']|['D8', 'SA', 'DQ']|711|731, action=call, amount=0
+2024-06-12 04:55:41,845 - INFO - Declare action: state=['D4', 'C9']|['D8', 'SA', 'DQ']|711|481.0, action=call, amount=0
+2024-06-12 04:55:41,846 - INFO - Updated Q-value for state: ['D4', 'C9']|['D8', 'SA', 'DQ']|711|481.0, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:41,846 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:41,846 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'euoxoxnbcblzlxigmxzbop', 'stack': 1289.0, 'state': 'participating'}], reward=-1, state=['D4', 'C9']|['D8', 'SA', 'DQ', 'S3', 'HJ']|711|1289.0, next_state=terminal
+2024-06-12 04:55:41,847 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:55:41,847 - INFO - Declare action: state=['H3', 'S2']|[]|711|1274.0, action=raise, amount=345
+2024-06-12 04:55:41,848 - INFO - Updated Q-value for state: ['H3', 'S2']|[]|711|1274.0, action: raise, reward: 1, next state: terminal
+2024-06-12 04:55:41,848 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:55:41,848 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'elocskjzhbkianqfpdykwa', 'stack': 726, 'state': 'participating'}], reward=1, state=['H3', 'S2']|['DJ', 'S7', 'CT', 'D6', 'S4']|726|1274.0, next_state=terminal
+2024-06-12 04:55:41,849 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:55:41,849 - INFO - Declare action: state=['DK', 'D2']|[]|726|1259.0, action=call, amount=0
+2024-06-12 04:55:41,849 - INFO - Updated Q-value for state: ['DK', 'D2']|[]|726|1259.0, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:41,850 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:41,850 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'euoxoxnbcblzlxigmxzbop', 'stack': 1274.0, 'state': 'participating'}], reward=-1, state=['DK', 'D2']|['S9', 'H8', 'D8', 'HA', 'HT']|726|1274.0, next_state=terminal
+2024-06-12 04:55:41,851 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:55:41,851 - INFO - Declare action: state=['DJ', 'S5']|[]|726|1259.0, action=call, amount=0
+2024-06-12 04:55:41,851 - INFO - Updated Q-value for state: ['DJ', 'S5']|[]|726|1259.0, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:41,851 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:41,851 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'euoxoxnbcblzlxigmxzbop', 'stack': 1274.0, 'state': 'participating'}], reward=-1, state=['DJ', 'S5']|['D4', 'CQ', 'C3', 'C5', 'CA']|726|1274.0, next_state=terminal
+2024-06-12 04:55:41,852 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:55:41,852 - INFO - Declare action: state=['S2', 'D8']|[]|726|1259.0, action=fold, amount=0
+2024-06-12 04:55:41,853 - INFO - Updated Q-value for state: ['S2', 'D8']|[]|726|1259.0, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:41,853 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:41,853 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'euoxoxnbcblzlxigmxzbop', 'stack': 1274.0, 'state': 'participating'}], reward=-1, state=['S2', 'D8']|['ST', 'CT', 'DQ', 'H6', 'C6']|726|1274.0, next_state=terminal
+2024-06-12 04:55:41,854 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:55:41,854 - INFO - Declare action: state=['S7', 'CQ']|[]|726|1259.0, action=fold, amount=0
+2024-06-12 04:55:41,854 - INFO - Updated Q-value for state: ['S7', 'CQ']|[]|726|1259.0, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:41,855 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:41,855 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'euoxoxnbcblzlxigmxzbop', 'stack': 1274.0, 'state': 'participating'}], reward=-1, state=['S7', 'CQ']|['D7', 'CA', 'CK', 'D3', 'SJ']|726|1274.0, next_state=terminal
+2024-06-12 04:55:41,855 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:55:41,856 - INFO - Declare action: state=['C5', 'HK']|[]|726|1259.0, action=call, amount=0
+2024-06-12 04:55:41,856 - INFO - Updated Q-value for state: ['C5', 'HK']|[]|726|1259.0, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:41,856 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:41,856 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'euoxoxnbcblzlxigmxzbop', 'stack': 1274.0, 'state': 'participating'}], reward=-1, state=['C5', 'HK']|['CQ', 'S6', 'DT', 'S8', 'ST']|726|1274.0, next_state=terminal
+2024-06-12 04:55:41,857 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:55:41,857 - INFO - Declare action: state=['HT', 'S2']|[]|726|1259.0, action=call, amount=0
+2024-06-12 04:55:41,858 - INFO - Updated Q-value for state: ['HT', 'S2']|[]|726|1259.0, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:41,858 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:41,858 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'euoxoxnbcblzlxigmxzbop', 'stack': 1274.0, 'state': 'participating'}], reward=-1, state=['HT', 'S2']|['SA', 'H2', 'DT', 'HJ', 'H9']|726|1274.0, next_state=terminal
+2024-06-12 04:55:41,858 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:55:41,859 - INFO - Declare action: state=['S7', 'S8']|[]|726|1259.0, action=raise, amount=311
+2024-06-12 04:55:41,859 - INFO - Updated Q-value for state: ['S7', 'S8']|[]|726|1259.0, action: raise, reward: 1, next state: terminal
+2024-06-12 04:55:41,859 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:55:41,860 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'elocskjzhbkianqfpdykwa', 'stack': 741, 'state': 'participating'}], reward=1, state=['S7', 'S8']|['S6', 'H8', 'C4', 'C9', 'ST']|741|1259.0, next_state=terminal
+2024-06-12 04:55:41,860 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:55:41,860 - INFO - Declare action: state=['D8', 'H6']|[]|741|1244.0, action=raise, amount=181
+2024-06-12 04:55:41,861 - INFO - Updated Q-value for state: ['D8', 'H6']|[]|741|1244.0, action: raise, reward: 1, next state: terminal
+2024-06-12 04:55:41,861 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:55:41,861 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'elocskjzhbkianqfpdykwa', 'stack': 756, 'state': 'participating'}], reward=1, state=['D8', 'H6']|['H7', 'D3', 'C2', 'D6', 'C7']|756|1244.0, next_state=terminal
+2024-06-12 04:55:41,861 - INFO - Round 1/1 against baseline2: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline2': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline3': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline4': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline5': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:55:43,577 - INFO - Declare action: state=['SJ', 'CJ']|[]|990|990, action=call, amount=0
+2024-06-12 04:55:43,578 - INFO - Updated Q-value for state: ['SJ', 'CJ']|[]|990|990, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:43,578 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:43,578 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['SJ', 'CJ']|['D9', 'SQ', 'HQ', 'C4', 'DK']|990|1010, next_state=terminal
+2024-06-12 04:55:43,578 - INFO - Declare action: state=['CK', 'S2']|[]|985|1000, action=fold, amount=0
+2024-06-12 04:55:43,579 - INFO - Updated Q-value for state: ['CK', 'S2']|[]|985|1000, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:43,580 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:43,580 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1015, 'state': 'participating'}], reward=-1, state=['CK', 'S2']|['C6', 'D7', 'C8', 'DK', 'C3']|985|1015, next_state=terminal
+2024-06-12 04:55:45,062 - INFO - Declare action: state=['DA', 'D5']|[]|975|1005, action=call, amount=0
+2024-06-12 04:55:45,063 - INFO - Updated Q-value for state: ['DA', 'D5']|[]|975|1005, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:45,063 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:45,063 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1025, 'state': 'participating'}], reward=-1, state=['DA', 'D5']|['CK', 'DT', 'C2', 'H4', 'H3']|975|1025, next_state=terminal
+2024-06-12 04:55:45,064 - INFO - Declare action: state=['CT', 'SA']|[]|970|1015, action=call, amount=0
+2024-06-12 04:55:45,065 - INFO - Updated Q-value for state: ['CT', 'SA']|[]|970|1015, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:45,065 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:45,065 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1030, 'state': 'participating'}], reward=-1, state=['CT', 'SA']|['C8', 'DA', 'D9', 'H3', 'D5']|970|1030, next_state=terminal
+2024-06-12 04:55:46,808 - INFO - Declare action: state=['H4', 'S8']|[]|960|1020, action=fold, amount=0
+2024-06-12 04:55:46,809 - INFO - Updated Q-value for state: ['H4', 'S8']|[]|960|1020, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:46,809 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:46,809 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1040, 'state': 'participating'}], reward=-1, state=['H4', 'S8']|['C3', 'SK', 'DJ', 'H6', 'D6']|960|1040, next_state=terminal
+2024-06-12 04:55:46,809 - INFO - Declare action: state=['H7', 'HK']|[]|955|1030, action=raise, amount=68
+2024-06-12 04:55:48,401 - INFO - Updated Q-value for state: ['H7', 'HK']|[]|955|1030, action: raise, reward: 1, next state: terminal
+2024-06-12 04:55:48,401 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:55:48,401 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'ahfuscducqokueypztwzos', 'stack': 970, 'state': 'participating'}], reward=1, state=['H7', 'HK']|['H4', 'H6', 'S5', 'H2', 'CK']|970|1030, next_state=terminal
+2024-06-12 04:55:50,086 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:55:50,087 - INFO - Declare action: state=['S9', 'D5']|[]|970|1015, action=call, amount=0
+2024-06-12 04:55:50,088 - INFO - Updated Q-value for state: ['S9', 'D5']|[]|970|1015, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:50,088 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:50,088 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1030, 'state': 'participating'}], reward=-1, state=['S9', 'D5']|['HJ', 'C8', 'C2', 'SQ', 'HT']|970|1030, next_state=terminal
+2024-06-12 04:55:51,788 - INFO - Declare action: state=['HK', 'S7']|[]|960|1020, action=fold, amount=0
+2024-06-12 04:55:51,789 - INFO - Updated Q-value for state: ['HK', 'S7']|[]|960|1020, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:51,789 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:51,789 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1040, 'state': 'participating'}], reward=-1, state=['HK', 'S7']|['DJ', 'H7', 'HJ', 'S6', 'H3']|960|1040, next_state=terminal
+2024-06-12 04:55:51,790 - INFO - Declare action: state=['HA', 'D3']|[]|955|1030, action=fold, amount=0
+2024-06-12 04:55:51,790 - INFO - Updated Q-value for state: ['HA', 'D3']|[]|955|1030, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:51,791 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:51,791 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1045, 'state': 'participating'}], reward=-1, state=['HA', 'D3']|['D6', 'CJ', 'DK', 'H9', 'S3']|955|1045, next_state=terminal
+2024-06-12 04:55:53,630 - INFO - Declare action: state=['H3', 'C4']|[]|945|1035, action=raise, amount=481
+2024-06-12 04:55:55,499 - INFO - Updated Q-value for state: ['H3', 'C4']|[]|945|1035, action: raise, reward: 1, next state: terminal
+2024-06-12 04:55:55,499 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:55:55,499 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'ahfuscducqokueypztwzos', 'stack': 965, 'state': 'participating'}], reward=1, state=['H3', 'C4']|['DA', 'HT', 'C6', 'S4', 'DT']|965|1035, next_state=terminal
+2024-06-12 04:55:55,500 - INFO - Declare action: state=['CA', 'HQ']|[]|960|1025, action=raise, amount=594
+2024-06-12 04:55:57,127 - INFO - Updated Q-value for state: ['CA', 'HQ']|[]|960|1025, action: raise, reward: 1, next state: terminal
+2024-06-12 04:55:57,127 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:55:57,133 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'ahfuscducqokueypztwzos', 'stack': 975, 'state': 'participating'}], reward=1, state=['CA', 'HQ']|['D9', 'DJ', 'C2', 'ST', 'HT']|975|1025, next_state=terminal
+2024-06-12 04:55:58,932 - INFO - Declare action: state=['HT', 'H2']|[]|965|1015, action=fold, amount=0
+2024-06-12 04:55:58,932 - INFO - Updated Q-value for state: ['HT', 'H2']|[]|965|1015, action: fold, reward: -1, next state: terminal
+2024-06-12 04:55:58,932 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:58,932 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1035, 'state': 'participating'}], reward=-1, state=['HT', 'H2']|['C6', 'HA', 'S7', 'H7', 'DT']|965|1035, next_state=terminal
+2024-06-12 04:55:58,933 - INFO - Declare action: state=['CK', 'DK']|[]|960|1025, action=call, amount=0
+2024-06-12 04:55:58,933 - INFO - Updated Q-value for state: ['CK', 'DK']|[]|960|1025, action: call, reward: -1, next state: terminal
+2024-06-12 04:55:58,933 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:55:58,933 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1040, 'state': 'participating'}], reward=-1, state=['CK', 'DK']|['CT', 'D3', 'HJ', 'ST', 'D4']|960|1040, next_state=terminal
+2024-06-12 04:56:00,641 - INFO - Declare action: state=['H7', 'HK']|[]|950|1030, action=call, amount=0
+2024-06-12 04:56:00,642 - INFO - Updated Q-value for state: ['H7', 'HK']|[]|950|1030, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,642 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,642 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1050, 'state': 'participating'}], reward=-1, state=['H7', 'HK']|['HQ', 'H4', 'H8', 'C4', 'DJ']|950|1050, next_state=terminal
+2024-06-12 04:56:00,643 - INFO - Declare action: state=['H5', 'H9']|[]|945|1040, action=fold, amount=0
+2024-06-12 04:56:00,643 - INFO - Updated Q-value for state: ['H5', 'H9']|[]|945|1040, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,644 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,644 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1055, 'state': 'participating'}], reward=-1, state=['H5', 'H9']|['D3', 'DQ', 'SK', 'S4', 'D6']|945|1055, next_state=terminal
+2024-06-12 04:56:00,645 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:00,645 - INFO - Declare action: state=['S7', 'D3']|[]|945|1040, action=fold, amount=0
+2024-06-12 04:56:00,646 - INFO - Updated Q-value for state: ['S7', 'D3']|[]|945|1040, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,646 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,646 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1055, 'state': 'participating'}], reward=-1, state=['S7', 'D3']|['C7', 'S8', 'HA', 'S9', 'D6']|945|1055, next_state=terminal
+2024-06-12 04:56:00,648 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:00,648 - INFO - Declare action: state=['H4', 'HT']|[]|945|1040, action=call, amount=0
+2024-06-12 04:56:00,649 - INFO - Updated Q-value for state: ['H4', 'HT']|[]|945|1040, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,649 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,649 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'qposlbktfbwstusniasnqs', 'stack': 1055, 'state': 'participating'}], reward=-1, state=['H4', 'HT']|['S7', 'CK', 'SK', 'S8', 'S4']|945|1055, next_state=terminal
+2024-06-12 04:56:00,649 - INFO - Round 1/1 against baseline3: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline2': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline3': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline4': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline5': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:56:00,653 - INFO - Declare action: state=['C3', 'DT']|[]|990|952.01, action=fold, amount=0
+2024-06-12 04:56:00,654 - INFO - Updated Q-value for state: ['C3', 'DT']|[]|990|952.01, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,654 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,654 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1009.01, 'state': 'participating'}], reward=-1, state=['C3', 'DT']|['SQ', 'C7', 'H7', 'C6', 'CA']|990|1009.01, next_state=terminal
+2024-06-12 04:56:00,654 - INFO - Declare action: state=['S7', 'D9']|[]|985|999.01, action=fold, amount=0
+2024-06-12 04:56:00,655 - INFO - Updated Q-value for state: ['S7', 'D9']|[]|985|999.01, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,655 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,655 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1014.01, 'state': 'participating'}], reward=-1, state=['S7', 'D9']|['S2', 'H4', 'SA', 'SK', 'S5']|985|1014.01, next_state=terminal
+2024-06-12 04:56:00,656 - INFO - Declare action: state=['D6', 'HA']|[]|975|1004.01, action=fold, amount=0
+2024-06-12 04:56:00,657 - INFO - Updated Q-value for state: ['D6', 'HA']|[]|975|1004.01, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,657 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,657 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1024.01, 'state': 'participating'}], reward=-1, state=['D6', 'HA']|['HK', 'D4', 'C3', 'HJ', 'CQ']|975|1024.01, next_state=terminal
+2024-06-12 04:56:00,658 - INFO - Declare action: state=['D4', 'H3']|[]|970|1014.01, action=fold, amount=0
+2024-06-12 04:56:00,659 - INFO - Updated Q-value for state: ['D4', 'H3']|[]|970|1014.01, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,659 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,659 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1029.01, 'state': 'participating'}], reward=-1, state=['D4', 'H3']|['DT', 'CJ', 'H2', 'S3', 'CK']|970|1029.01, next_state=terminal
+2024-06-12 04:56:00,660 - INFO - Declare action: state=['D9', 'D7']|[]|960|954.8299999999999, action=fold, amount=0
+2024-06-12 04:56:00,661 - INFO - Updated Q-value for state: ['D9', 'D7']|[]|960|954.8299999999999, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,661 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,661 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1038.83, 'state': 'participating'}], reward=-1, state=['D9', 'D7']|['S7', 'D2', 'HQ', 'C9', 'SA']|960|1038.83, next_state=terminal
+2024-06-12 04:56:00,661 - INFO - Declare action: state=['S7', 'H7']|[]|955|1028.83, action=fold, amount=0
+2024-06-12 04:56:00,662 - INFO - Updated Q-value for state: ['S7', 'H7']|[]|955|1028.83, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,662 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,662 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1043.83, 'state': 'participating'}], reward=-1, state=['S7', 'H7']|['CK', 'SJ', 'H5', 'S3', 'H9']|955|1043.83, next_state=terminal
+2024-06-12 04:56:00,663 - INFO - Declare action: state=['S7', 'D4']|[]|945|968.3599999999999, action=fold, amount=0
+2024-06-12 04:56:00,664 - INFO - Updated Q-value for state: ['S7', 'D4']|[]|945|968.3599999999999, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,664 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,664 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1053.36, 'state': 'participating'}], reward=-1, state=['S7', 'D4']|['D9', 'HJ', 'S6', 'SJ', 'HA']|945|1053.36, next_state=terminal
+2024-06-12 04:56:00,665 - INFO - Declare action: state=['S3', 'D2']|[]|940|1043.36, action=fold, amount=0
+2024-06-12 04:56:00,666 - INFO - Updated Q-value for state: ['S3', 'D2']|[]|940|1043.36, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,666 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,666 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1058.36, 'state': 'participating'}], reward=-1, state=['S3', 'D2']|['CT', 'DA', 'D5', 'SJ', 'SQ']|940|1058.36, next_state=terminal
+2024-06-12 04:56:00,667 - INFO - Declare action: state=['CJ', 'H7']|[]|930|980.04, action=fold, amount=0
+2024-06-12 04:56:00,668 - INFO - Updated Q-value for state: ['CJ', 'H7']|[]|930|980.04, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,668 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,668 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1068.04, 'state': 'participating'}], reward=-1, state=['CJ', 'H7']|['S7', 'D6', 'HQ', 'SK', 'D7']|930|1068.04, next_state=terminal
+2024-06-12 04:56:00,669 - INFO - Declare action: state=['D2', 'CT']|[]|925|1058.04, action=raise, amount=192
+2024-06-12 04:56:00,669 - INFO - Declare action: state=['D2', 'CT']|[]|738|694.04, action=fold, amount=0
+2024-06-12 04:56:00,670 - INFO - Updated Q-value for state: ['D2', 'CT']|[]|738|694.04, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,670 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,670 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1260.04, 'state': 'participating'}], reward=-1, state=['D2', 'CT']|['D5', 'H6', 'C9', 'S5', 'CK']|738|1260.04, next_state=terminal
+2024-06-12 04:56:00,671 - INFO - Declare action: state=['H4', 'CA']|[]|728|1210.9099999999999, action=fold, amount=0
+2024-06-12 04:56:00,672 - INFO - Updated Q-value for state: ['H4', 'CA']|[]|728|1210.9099999999999, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,672 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,672 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1269.9099999999999, 'state': 'participating'}], reward=-1, state=['H4', 'CA']|['S8', 'S3', 'HA', 'S4', 'SK']|728|1269.9099999999999, next_state=terminal
+2024-06-12 04:56:00,673 - INFO - Declare action: state=['CQ', 'H6']|[]|723|1259.9099999999999, action=fold, amount=0
+2024-06-12 04:56:00,674 - INFO - Updated Q-value for state: ['CQ', 'H6']|[]|723|1259.9099999999999, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,674 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,674 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1274.9099999999999, 'state': 'participating'}], reward=-1, state=['CQ', 'H6']|['DT', 'S9', 'DA', 'H5', 'CK']|723|1274.9099999999999, next_state=terminal
+2024-06-12 04:56:00,675 - INFO - Declare action: state=['HJ', 'S7']|[]|713|1264.9099999999999, action=raise, amount=140
+2024-06-12 04:56:00,676 - INFO - Updated Q-value for state: ['HJ', 'S7']|[]|713|1264.9099999999999, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:00,676 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:00,676 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'txdwrgudacfsradzdlgtzj', 'stack': 733, 'state': 'participating'}], reward=1, state=['HJ', 'S7']|['CJ', 'C8', 'DQ', 'C7', 'CQ']|733|1264.9099999999999, next_state=terminal
+2024-06-12 04:56:00,677 - INFO - Declare action: state=['D2', 'H9']|[]|728|1254.9099999999999, action=fold, amount=0
+2024-06-12 04:56:00,678 - INFO - Updated Q-value for state: ['D2', 'H9']|[]|728|1254.9099999999999, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,678 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,678 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1269.9099999999999, 'state': 'participating'}], reward=-1, state=['D2', 'H9']|['S3', 'C9', 'HQ', 'D3', 'D8']|728|1269.9099999999999, next_state=terminal
+2024-06-12 04:56:00,679 - INFO - Declare action: state=['S9', 'H5']|[]|718|1259.9099999999999, action=fold, amount=0
+2024-06-12 04:56:00,680 - INFO - Updated Q-value for state: ['S9', 'H5']|[]|718|1259.9099999999999, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,680 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,680 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1279.9099999999999, 'state': 'participating'}], reward=-1, state=['S9', 'H5']|['SA', 'H8', 'C3', 'CJ', 'DQ']|718|1279.9099999999999, next_state=terminal
+2024-06-12 04:56:00,680 - INFO - Declare action: state=['H8', 'S8']|[]|713|1269.9099999999999, action=fold, amount=0
+2024-06-12 04:56:00,681 - INFO - Updated Q-value for state: ['H8', 'S8']|[]|713|1269.9099999999999, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,681 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,681 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1284.9099999999999, 'state': 'participating'}], reward=-1, state=['H8', 'S8']|['HQ', 'S3', 'H2', 'DJ', 'HT']|713|1284.9099999999999, next_state=terminal
+2024-06-12 04:56:00,682 - INFO - Declare action: state=['D3', 'S6']|[]|703|1274.9099999999999, action=fold, amount=0
+2024-06-12 04:56:00,683 - INFO - Updated Q-value for state: ['D3', 'S6']|[]|703|1274.9099999999999, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,683 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,683 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhxyrknkypdhbxkjamagnv', 'stack': 1294.9099999999999, 'state': 'participating'}], reward=-1, state=['D3', 'S6']|['H3', 'H4', 'H7', 'CT', 'D5']|703|1294.9099999999999, next_state=terminal
+2024-06-12 04:56:00,684 - INFO - Declare action: state=['H6', 'ST']|[]|698|1284.9099999999999, action=raise, amount=680
+2024-06-12 04:56:00,685 - INFO - Updated Q-value for state: ['H6', 'ST']|[]|698|1284.9099999999999, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:00,685 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:00,685 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'txdwrgudacfsradzdlgtzj', 'stack': 713, 'state': 'participating'}], reward=1, state=['H6', 'ST']|['C4', 'CT', 'S9', 'S4', 'C6']|713|1284.9099999999999, next_state=terminal
+2024-06-12 04:56:00,686 - INFO - Declare action: state=['H4', 'H2']|[]|703|1274.9099999999999, action=raise, amount=282
+2024-06-12 04:56:00,688 - INFO - Updated Q-value for state: ['H4', 'H2']|[]|703|1274.9099999999999, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:00,688 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:00,688 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'txdwrgudacfsradzdlgtzj', 'stack': 723, 'state': 'participating'}], reward=1, state=['H4', 'H2']|['D9', 'C5', 'SA', 'C4', 'DA']|723|1274.9099999999999, next_state=terminal
+2024-06-12 04:56:00,688 - INFO - Declare action: state=['DK', 'CK']|[]|718|1264.9099999999999, action=raise, amount=155
+2024-06-12 04:56:00,689 - INFO - Declare action: state=['DK', 'CK']|['S9', 'SQ', 'D9']|568|1119.9099999999999, action=raise, amount=454
+2024-06-12 04:56:00,690 - INFO - Updated Q-value for state: ['DK', 'CK']|['S9', 'SQ', 'D9']|568|1119.9099999999999, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:00,690 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:00,691 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'txdwrgudacfsradzdlgtzj', 'stack': 878, 'state': 'participating'}], reward=1, state=['DK', 'CK']|['S9', 'SQ', 'D9', 'C9', 'D3']|878|1119.9099999999999, next_state=terminal
+2024-06-12 04:56:00,691 - INFO - Round 1/1 against baseline4: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline2': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline3': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline4': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline5': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:56:00,719 - INFO - Declare action: state=['S6', 'SK']|[]|990|990, action=fold, amount=0
+2024-06-12 04:56:00,720 - INFO - Updated Q-value for state: ['S6', 'SK']|[]|990|990, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,720 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,720 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['S6', 'SK']|['DK', 'H3', 'SA', 'HJ', 'C9']|990|1010, next_state=terminal
+2024-06-12 04:56:00,721 - INFO - Declare action: state=['C2', 'DK']|[]|985|1000, action=call, amount=0
+2024-06-12 04:56:00,722 - INFO - Updated Q-value for state: ['C2', 'DK']|[]|985|1000, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,722 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,722 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1015, 'state': 'participating'}], reward=-1, state=['C2', 'DK']|['C8', 'ST', 'CK', 'S9', 'H9']|985|1015, next_state=terminal
+2024-06-12 04:56:00,748 - INFO - Declare action: state=['SK', 'D7']|[]|975|1005, action=call, amount=0
+2024-06-12 04:56:00,749 - INFO - Updated Q-value for state: ['SK', 'D7']|[]|975|1005, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,749 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,749 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1025, 'state': 'participating'}], reward=-1, state=['SK', 'D7']|['CT', 'D5', 'C3', 'S8', 'C6']|975|1025, next_state=terminal
+2024-06-12 04:56:00,750 - INFO - Declare action: state=['HQ', 'H8']|[]|970|1015, action=fold, amount=0
+2024-06-12 04:56:00,750 - INFO - Updated Q-value for state: ['HQ', 'H8']|[]|970|1015, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,751 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,751 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1030, 'state': 'participating'}], reward=-1, state=['HQ', 'H8']|['DQ', 'SQ', 'S6', 'C3', 'C9']|970|1030, next_state=terminal
+2024-06-12 04:56:00,777 - INFO - Declare action: state=['SA', 'D6']|[]|960|1020, action=fold, amount=0
+2024-06-12 04:56:00,778 - INFO - Updated Q-value for state: ['SA', 'D6']|[]|960|1020, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,778 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,778 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1040, 'state': 'participating'}], reward=-1, state=['SA', 'D6']|['HK', 'S5', 'C9', 'D4', 'DA']|960|1040, next_state=terminal
+2024-06-12 04:56:00,778 - INFO - Declare action: state=['C4', 'DQ']|[]|955|1030, action=fold, amount=0
+2024-06-12 04:56:00,779 - INFO - Updated Q-value for state: ['C4', 'DQ']|[]|955|1030, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,779 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,779 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1045, 'state': 'participating'}], reward=-1, state=['C4', 'DQ']|['CT', 'D7', 'C3', 'C6', 'H6']|955|1045, next_state=terminal
+2024-06-12 04:56:00,805 - INFO - Declare action: state=['HJ', 'S2']|[]|945|1035, action=call, amount=0
+2024-06-12 04:56:00,806 - INFO - Updated Q-value for state: ['HJ', 'S2']|[]|945|1035, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,806 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,806 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1055, 'state': 'participating'}], reward=-1, state=['HJ', 'S2']|['H3', 'C8', 'C2', 'CQ', 'H7']|945|1055, next_state=terminal
+2024-06-12 04:56:00,807 - INFO - Declare action: state=['H5', 'C9']|[]|940|1045, action=call, amount=0
+2024-06-12 04:56:00,808 - INFO - Updated Q-value for state: ['H5', 'C9']|[]|940|1045, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,808 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,808 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1060, 'state': 'participating'}], reward=-1, state=['H5', 'C9']|['C3', 'DJ', 'H2', 'D7', 'C5']|940|1060, next_state=terminal
+2024-06-12 04:56:00,834 - INFO - Declare action: state=['C9', 'DA']|[]|930|1050, action=raise, amount=320
+2024-06-12 04:56:00,859 - INFO - Updated Q-value for state: ['C9', 'DA']|[]|930|1050, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:00,859 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:00,860 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'eqbpgaoxkqrefdzndrmjlu', 'stack': 950, 'state': 'participating'}], reward=1, state=['C9', 'DA']|['H2', 'H5', 'SA', 'D9', 'D7']|950|1050, next_state=terminal
+2024-06-12 04:56:00,860 - INFO - Declare action: state=['C6', 'H9']|[]|945|1040, action=call, amount=0
+2024-06-12 04:56:00,861 - INFO - Updated Q-value for state: ['C6', 'H9']|[]|945|1040, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,861 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,861 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1055, 'state': 'participating'}], reward=-1, state=['C6', 'H9']|['D8', 'DT', 'C8', 'D4', 'C5']|945|1055, next_state=terminal
+2024-06-12 04:56:00,885 - INFO - Declare action: state=['C8', 'H6']|[]|935|1045, action=call, amount=0
+2024-06-12 04:56:00,885 - INFO - Updated Q-value for state: ['C8', 'H6']|[]|935|1045, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,886 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,886 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1065, 'state': 'participating'}], reward=-1, state=['C8', 'H6']|['S6', 'H4', 'D4', 'S2', 'C6']|935|1065, next_state=terminal
+2024-06-12 04:56:00,886 - INFO - Declare action: state=['C6', 'SA']|[]|930|1055, action=raise, amount=195
+2024-06-12 04:56:00,906 - INFO - Updated Q-value for state: ['C6', 'SA']|[]|930|1055, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:00,907 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:00,907 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'eqbpgaoxkqrefdzndrmjlu', 'stack': 945, 'state': 'participating'}], reward=1, state=['C6', 'SA']|['CQ', 'HT', 'S3', 'H6', 'DK']|945|1055, next_state=terminal
+2024-06-12 04:56:00,923 - INFO - Declare action: state=['HQ', 'D4']|[]|935|1045, action=call, amount=0
+2024-06-12 04:56:00,925 - INFO - Updated Q-value for state: ['HQ', 'D4']|[]|935|1045, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,925 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,925 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1065, 'state': 'participating'}], reward=-1, state=['HQ', 'D4']|['DA', 'C2', 'S7', 'S2', 'SJ']|935|1065, next_state=terminal
+2024-06-12 04:56:00,925 - INFO - Declare action: state=['C5', 'CQ']|[]|930|1055, action=call, amount=0
+2024-06-12 04:56:00,926 - INFO - Updated Q-value for state: ['C5', 'CQ']|[]|930|1055, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,926 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,926 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1070, 'state': 'participating'}], reward=-1, state=['C5', 'CQ']|['H9', 'DT', 'DA', 'H7', 'S5']|930|1070, next_state=terminal
+2024-06-12 04:56:00,944 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:00,944 - INFO - Declare action: state=['S9', 'HA']|[]|930|1055, action=call, amount=0
+2024-06-12 04:56:00,945 - INFO - Updated Q-value for state: ['S9', 'HA']|[]|930|1055, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,945 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,945 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1070, 'state': 'participating'}], reward=-1, state=['S9', 'HA']|['H8', 'DQ', 'C7', 'D3', 'ST']|930|1070, next_state=terminal
+2024-06-12 04:56:00,957 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:00,957 - INFO - Declare action: state=['H9', 'DQ']|[]|930|1055, action=fold, amount=0
+2024-06-12 04:56:00,958 - INFO - Updated Q-value for state: ['H9', 'DQ']|[]|930|1055, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,958 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,958 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1070, 'state': 'participating'}], reward=-1, state=['H9', 'DQ']|['DJ', 'H7', 'S4', 'SJ', 'CJ']|930|1070, next_state=terminal
+2024-06-12 04:56:00,970 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:00,970 - INFO - Declare action: state=['S2', 'D6']|[]|930|1055, action=call, amount=0
+2024-06-12 04:56:00,971 - INFO - Updated Q-value for state: ['S2', 'D6']|[]|930|1055, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,971 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,971 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'nnifrfcyhcetbyvnezmaap', 'stack': 1070, 'state': 'participating'}], reward=-1, state=['S2', 'D6']|['C2', 'DK', 'H7', 'SK', 'C5']|930|1070, next_state=terminal
+2024-06-12 04:56:00,971 - INFO - Round 1/1 against baseline5: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline2': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline3': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline4': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline5': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:56:00,973 - INFO - Declare action: state=['C9', 'HJ']|[]|990|990, action=call, amount=0
+2024-06-12 04:56:00,974 - INFO - Updated Q-value for state: ['C9', 'HJ']|[]|990|990, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,974 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,974 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'zmntraqksgxzdhqcbrmadl', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['C9', 'HJ']|['HA', 'C3', 'CT', 'HQ', 'SK']|990|1010, next_state=terminal
+2024-06-12 04:56:00,974 - INFO - Declare action: state=['SK', 'D3']|[]|985|1000, action=fold, amount=0
+2024-06-12 04:56:00,975 - INFO - Updated Q-value for state: ['SK', 'D3']|[]|985|1000, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:00,975 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,975 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'zmntraqksgxzdhqcbrmadl', 'stack': 1015, 'state': 'participating'}], reward=-1, state=['SK', 'D3']|['S5', 'S2', 'CJ', 'C9', 'DT']|985|1015, next_state=terminal
+2024-06-12 04:56:00,975 - INFO - Declare action: state=['C4', 'S9']|[]|975|1005, action=raise, amount=849
+2024-06-12 04:56:00,976 - INFO - Updated Q-value for state: ['C4', 'S9']|[]|975|1005, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:00,976 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:00,976 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'dpzrfttynncjjiknkfxmeh', 'stack': 995, 'state': 'participating'}], reward=1, state=['C4', 'S9']|['CT', 'DA', 'S8', 'H9', 'C3']|995|1005, next_state=terminal
+2024-06-12 04:56:00,977 - INFO - Declare action: state=['C8', 'S7']|[]|990|995, action=call, amount=0
+2024-06-12 04:56:00,977 - INFO - Updated Q-value for state: ['C8', 'S7']|[]|990|995, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:00,977 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:00,977 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'zmntraqksgxzdhqcbrmadl', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['C8', 'S7']|['D2', 'DQ', 'S4', 'C7', 'H4']|990|1010, next_state=terminal
+2024-06-12 04:56:00,978 - INFO - Declare action: state=['D5', 'DJ']|[]|980|995, action=raise, amount=142
+2024-06-12 04:56:01,135 - INFO - Declare action: state=['D5', 'DJ']|['D9', 'H5', 'S3']|848|858.0, action=call, amount=0
+2024-06-12 04:56:01,136 - INFO - Updated Q-value for state: ['D5', 'DJ']|['D9', 'H5', 'S3']|848|858.0, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:01,136 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:01,136 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'zmntraqksgxzdhqcbrmadl', 'stack': 1152.0, 'state': 'participating'}], reward=-1, state=['D5', 'DJ']|['D9', 'H5', 'S3', 'S4', 'C6']|848|1152.0, next_state=terminal
+2024-06-12 04:56:01,137 - INFO - Declare action: state=['HA', 'S2']|[]|843|1142.0, action=fold, amount=0
+2024-06-12 04:56:01,138 - INFO - Updated Q-value for state: ['HA', 'S2']|[]|843|1142.0, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:01,138 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:01,138 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'zmntraqksgxzdhqcbrmadl', 'stack': 1157.0, 'state': 'participating'}], reward=-1, state=['HA', 'S2']|['C4', 'D5', 'CQ', 'D2', 'C6']|843|1157.0, next_state=terminal
+2024-06-12 04:56:01,139 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,140 - INFO - Declare action: state=['S4', 'C9']|[]|843|1142.0, action=call, amount=0
+2024-06-12 04:56:01,141 - INFO - Updated Q-value for state: ['S4', 'C9']|[]|843|1142.0, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:01,141 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:01,141 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'zmntraqksgxzdhqcbrmadl', 'stack': 1157.0, 'state': 'participating'}], reward=-1, state=['S4', 'C9']|['C8', 'H3', 'D5', 'DT', 'D6']|843|1157.0, next_state=terminal
+2024-06-12 04:56:01,142 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,143 - INFO - Declare action: state=['S6', 'D8']|[]|843|1142.0, action=call, amount=0
+2024-06-12 04:56:01,144 - INFO - Updated Q-value for state: ['S6', 'D8']|[]|843|1142.0, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:01,144 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:01,144 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'zmntraqksgxzdhqcbrmadl', 'stack': 1157.0, 'state': 'participating'}], reward=-1, state=['S6', 'D8']|['HT', 'S2', 'DA', 'DK', 'ST']|843|1157.0, next_state=terminal
+2024-06-12 04:56:01,145 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,146 - INFO - Declare action: state=['S4', 'H2']|[]|843|1142.0, action=raise, amount=301
+2024-06-12 04:56:01,147 - INFO - Updated Q-value for state: ['S4', 'H2']|[]|843|1142.0, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:01,147 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:01,147 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'dpzrfttynncjjiknkfxmeh', 'stack': 858, 'state': 'participating'}], reward=1, state=['S4', 'H2']|['H5', 'H4', 'D9', 'H7', 'C2']|858|1142.0, next_state=terminal
+2024-06-12 04:56:01,148 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,149 - INFO - Declare action: state=['S3', 'C4']|[]|858|1127.0, action=call, amount=0
+2024-06-12 04:56:01,150 - INFO - Updated Q-value for state: ['S3', 'C4']|[]|858|1127.0, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:01,150 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:01,150 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'zmntraqksgxzdhqcbrmadl', 'stack': 1142.0, 'state': 'participating'}], reward=-1, state=['S3', 'C4']|['S4', 'D3', 'HQ', 'SJ', 'DJ']|858|1142.0, next_state=terminal
+2024-06-12 04:56:01,151 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,152 - INFO - Declare action: state=['S4', 'HT']|[]|858|1127.0, action=call, amount=0
+2024-06-12 04:56:01,153 - INFO - Updated Q-value for state: ['S4', 'HT']|[]|858|1127.0, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:01,153 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:01,153 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'zmntraqksgxzdhqcbrmadl', 'stack': 1142.0, 'state': 'participating'}], reward=-1, state=['S4', 'HT']|['SQ', 'DJ', 'D7', 'DT', 'C2']|858|1142.0, next_state=terminal
+2024-06-12 04:56:01,154 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,155 - INFO - Declare action: state=['C6', 'D6']|[]|858|1127.0, action=call, amount=0
+2024-06-12 04:56:01,156 - INFO - Updated Q-value for state: ['C6', 'D6']|[]|858|1127.0, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:01,156 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:01,156 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'zmntraqksgxzdhqcbrmadl', 'stack': 1142.0, 'state': 'participating'}], reward=-1, state=['C6', 'D6']|['CT', 'HQ', 'C8', 'SQ', 'CQ']|858|1142.0, next_state=terminal
+2024-06-12 04:56:01,157 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,158 - INFO - Declare action: state=['CQ', 'H2']|[]|858|1127.0, action=raise, amount=375
+2024-06-12 04:56:01,159 - INFO - Updated Q-value for state: ['CQ', 'H2']|[]|858|1127.0, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:01,159 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:01,159 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'dpzrfttynncjjiknkfxmeh', 'stack': 873, 'state': 'participating'}], reward=1, state=['CQ', 'H2']|['C5', 'D3', 'H3', 'D4', 'S2']|873|1127.0, next_state=terminal
+2024-06-12 04:56:01,159 - INFO - Round 1/1 against baseline6: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline2': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline3': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline4': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline5': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline6': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:56:01,163 - INFO - Declare action: state=['SQ', 'SJ']|[]|990|975, action=raise, amount=181
+2024-06-12 04:56:01,164 - INFO - Updated Q-value for state: ['SQ', 'SJ']|[]|990|975, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:01,164 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:01,164 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'lkwnzrxensrmtnunfbnyov', 'stack': 1025, 'state': 'participating'}], reward=1, state=['SQ', 'SJ']|['S4', 'HK', 'D2', 'CQ', 'HA']|1025|975, next_state=terminal
+2024-06-12 04:56:01,165 - INFO - Declare action: state=['DQ', 'SA']|[]|1020|965, action=raise, amount=608
+2024-06-12 04:56:01,165 - INFO - Declare action: state=['DQ', 'SA']|['ST', 'CK', 'D9']|417|367, action=raise, amount=182
+2024-06-12 04:56:01,166 - INFO - Declare action: state=['DQ', 'SA']|['ST', 'CK', 'D9']|235|0, action=raise, amount=-1
+2024-06-12 04:56:01,168 - INFO - Updated Q-value for state: ['DQ', 'SA']|['ST', 'CK', 'D9']|235|0, action: raise, reward: -1, next state: terminal
+2024-06-12 04:56:01,168 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:01,168 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jptjrouecddjbegkjiczmm', 'stack': 1765, 'state': 'allin'}], reward=-1, state=['DQ', 'SA']|['ST', 'CK', 'D9', 'S4', 'CQ']|235|1765, next_state=terminal
+2024-06-12 04:56:01,169 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,169 - INFO - Declare action: state=['H4', 'D6']|[]|235|1750, action=fold, amount=0
+2024-06-12 04:56:01,170 - INFO - Updated Q-value for state: ['H4', 'D6']|[]|235|1750, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:01,170 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:01,170 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jptjrouecddjbegkjiczmm', 'stack': 1765, 'state': 'participating'}], reward=-1, state=['H4', 'D6']|['HJ', 'C6', 'DT', 'HT', 'DK']|235|1765, next_state=terminal
+2024-06-12 04:56:01,172 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,172 - INFO - Declare action: state=['SA', 'H6']|[]|235|1750, action=raise, amount=201
+2024-06-12 04:56:01,173 - INFO - Updated Q-value for state: ['SA', 'H6']|[]|235|1750, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:01,174 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:01,174 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'lkwnzrxensrmtnunfbnyov', 'stack': 250, 'state': 'participating'}], reward=1, state=['SA', 'H6']|['D4', 'D9', 'CQ', 'H9', 'CT']|250|1750, next_state=terminal
+2024-06-12 04:56:01,175 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,175 - INFO - Declare action: state=['CA', 'H9']|[]|250|1735, action=fold, amount=0
+2024-06-12 04:56:01,176 - INFO - Updated Q-value for state: ['CA', 'H9']|[]|250|1735, action: fold, reward: -1, next state: terminal
+2024-06-12 04:56:01,176 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:01,176 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jptjrouecddjbegkjiczmm', 'stack': 1750, 'state': 'participating'}], reward=-1, state=['CA', 'H9']|['C5', 'SK', 'H5', 'S4', 'DQ']|250|1750, next_state=terminal
+2024-06-12 04:56:01,177 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,177 - INFO - Declare action: state=['D7', 'D2']|[]|250|1735, action=raise, amount=132
+2024-06-12 04:56:01,178 - INFO - Updated Q-value for state: ['D7', 'D2']|[]|250|1735, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:01,178 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:01,178 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'lkwnzrxensrmtnunfbnyov', 'stack': 265, 'state': 'participating'}], reward=1, state=['D7', 'D2']|['DJ', 'SA', 'SK', 'CA', 'C6']|265|1735, next_state=terminal
+2024-06-12 04:56:01,179 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,179 - INFO - Declare action: state=['S8', 'C2']|[]|265|1720, action=call, amount=0
+2024-06-12 04:56:01,180 - INFO - Updated Q-value for state: ['S8', 'C2']|[]|265|1720, action: call, reward: -1, next state: terminal
+2024-06-12 04:56:01,180 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:56:01,180 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jptjrouecddjbegkjiczmm', 'stack': 1735, 'state': 'participating'}], reward=-1, state=['S8', 'C2']|['HK', 'S5', 'H6', 'S4', 'S2']|265|1735, next_state=terminal
+2024-06-12 04:56:01,181 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,181 - INFO - Declare action: state=['C3', 'D5']|[]|265|1720, action=raise, amount=257
+2024-06-12 04:56:01,182 - INFO - Updated Q-value for state: ['C3', 'D5']|[]|265|1720, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:01,182 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:01,182 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'lkwnzrxensrmtnunfbnyov', 'stack': 280, 'state': 'participating'}], reward=1, state=['C3', 'D5']|['D4', 'SQ', 'S8', 'DA', 'SA']|280|1720, next_state=terminal
+2024-06-12 04:56:01,183 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,183 - INFO - Declare action: state=['D9', 'SK']|[]|280|1705, action=raise, amount=229
+2024-06-12 04:56:01,184 - INFO - Updated Q-value for state: ['D9', 'SK']|[]|280|1705, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:01,184 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:01,184 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'lkwnzrxensrmtnunfbnyov', 'stack': 295, 'state': 'participating'}], reward=1, state=['D9', 'SK']|['CT', 'C4', 'H6', 'H2', 'S8']|295|1705, next_state=terminal
+2024-06-12 04:56:01,184 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,185 - INFO - Declare action: state=['SJ', 'DK']|[]|295|1690, action=raise, amount=240
+2024-06-12 04:56:01,186 - INFO - Updated Q-value for state: ['SJ', 'DK']|[]|295|1690, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:01,186 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:01,186 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'lkwnzrxensrmtnunfbnyov', 'stack': 310, 'state': 'participating'}], reward=1, state=['SJ', 'DK']|['D2', 'H7', 'S6', 'HT', 'CT']|310|1690, next_state=terminal
+2024-06-12 04:56:01,187 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:56:01,187 - INFO - Declare action: state=['S4', 'C7']|[]|310|1675, action=raise, amount=157
+2024-06-12 04:56:01,189 - INFO - Updated Q-value for state: ['S4', 'C7']|[]|310|1675, action: raise, reward: 1, next state: terminal
+2024-06-12 04:56:01,189 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:56:01,189 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'lkwnzrxensrmtnunfbnyov', 'stack': 325, 'state': 'participating'}], reward=1, state=['S4', 'C7']|['S6', 'S5', 'SA', 'DQ', 'HT']|325|1675, next_state=terminal
+2024-06-12 04:56:01,189 - INFO - Round 1/1 against baseline7: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline2': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline3': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline4': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline5': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline6': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline7': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}}
+2024-06-12 04:56:01,190 - INFO - Training completed and model saved.
+2024-06-12 04:57:41,622 - INFO - Declare action: state=['D4', 'HQ']|[]|990|990, action=raise, amount=195
+2024-06-12 04:57:41,623 - INFO - Declare action: state=['D4', 'HQ']|['DK', 'D3', 'HT']|805|805, action=raise, amount=80
+2024-06-12 04:57:41,624 - INFO - Declare action: state=['D4', 'HQ']|['DK', 'D3', 'HT', 'S6']|725|725, action=call, amount=0
+2024-06-12 04:57:41,625 - INFO - Declare action: state=['D4', 'HQ']|['DK', 'D3', 'HT', 'S6', 'HK']|725|725, action=raise, amount=345
+2024-06-12 04:57:41,626 - INFO - Updated Q-value for state: ['D4', 'HQ']|['DK', 'D3', 'HT', 'S6', 'HK']|725|725, action: raise, reward: -1, next state: terminal
+2024-06-12 04:57:41,627 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:41,627 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'usrtgzowcywlwwiucaanam', 'stack': 1620, 'state': 'participating'}], reward=-1, state=['D4', 'HQ']|['DK', 'D3', 'HT', 'S6', 'HK']|380|1620, next_state=terminal
+2024-06-12 04:57:41,627 - INFO - Declare action: state=['H5', 'CK']|[]|375|1610, action=call, amount=0
+2024-06-12 04:57:41,628 - INFO - Updated Q-value for state: ['H5', 'CK']|[]|375|1610, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:41,628 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:41,628 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'usrtgzowcywlwwiucaanam', 'stack': 1625, 'state': 'participating'}], reward=-1, state=['H5', 'CK']|['HA', 'SA', 'D6', 'H4', 'D4']|375|1625, next_state=terminal
+2024-06-12 04:57:41,629 - INFO - Declare action: state=['D3', 'CT']|[]|365|1615, action=fold, amount=0
+2024-06-12 04:57:41,630 - INFO - Updated Q-value for state: ['D3', 'CT']|[]|365|1615, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:41,630 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:41,630 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'usrtgzowcywlwwiucaanam', 'stack': 1635, 'state': 'participating'}], reward=-1, state=['D3', 'CT']|['CA', 'D8', 'S2', 'ST', 'DK']|365|1635, next_state=terminal
+2024-06-12 04:57:41,630 - INFO - Declare action: state=['C7', 'C9']|[]|360|1625, action=fold, amount=0
+2024-06-12 04:57:41,631 - INFO - Updated Q-value for state: ['C7', 'C9']|[]|360|1625, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:41,631 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:41,631 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'usrtgzowcywlwwiucaanam', 'stack': 1640, 'state': 'participating'}], reward=-1, state=['C7', 'C9']|['H8', 'SK', 'S4', 'C2', 'DK']|360|1640, next_state=terminal
+2024-06-12 04:57:41,632 - INFO - Declare action: state=['S9', 'H2']|[]|350|1630, action=call, amount=0
+2024-06-12 04:57:41,633 - INFO - Updated Q-value for state: ['S9', 'H2']|[]|350|1630, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:41,633 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:41,633 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'usrtgzowcywlwwiucaanam', 'stack': 1650, 'state': 'participating'}], reward=-1, state=['S9', 'H2']|['CQ', 'H5', 'ST', 'DK', 'DQ']|350|1650, next_state=terminal
+2024-06-12 04:57:41,633 - INFO - Declare action: state=['S7', 'D6']|[]|345|1640, action=call, amount=0
+2024-06-12 04:57:41,634 - INFO - Updated Q-value for state: ['S7', 'D6']|[]|345|1640, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:41,634 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:41,634 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'usrtgzowcywlwwiucaanam', 'stack': 1655, 'state': 'participating'}], reward=-1, state=['S7', 'D6']|['SQ', 'C9', 'C8', 'D7', 'C3']|345|1655, next_state=terminal
+2024-06-12 04:57:41,635 - INFO - Declare action: state=['H6', 'DJ']|[]|335|1645, action=raise, amount=70
+2024-06-12 04:57:41,636 - INFO - Declare action: state=['H6', 'DJ']|['SJ', 'CJ', 'SA']|275|1585, action=raise, amount=27
+2024-06-12 04:57:41,637 - INFO - Declare action: state=['H6', 'DJ']|['SJ', 'CJ', 'SA', 'HQ']|248|1558, action=call, amount=0
+2024-06-12 04:57:41,637 - INFO - Declare action: state=['H6', 'DJ']|['SJ', 'CJ', 'SA', 'HQ', 'S7']|248|1558, action=fold, amount=0
+2024-06-12 04:57:41,638 - INFO - Updated Q-value for state: ['H6', 'DJ']|['SJ', 'CJ', 'SA', 'HQ', 'S7']|248|1558, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:41,638 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:41,638 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'usrtgzowcywlwwiucaanam', 'stack': 1752, 'state': 'participating'}], reward=-1, state=['H6', 'DJ']|['SJ', 'CJ', 'SA', 'HQ', 'S7']|248|1752, next_state=terminal
+2024-06-12 04:57:41,638 - INFO - Declare action: state=['S5', 'CJ']|[]|243|1742, action=call, amount=0
+2024-06-12 04:57:41,638 - INFO - Updated Q-value for state: ['S5', 'CJ']|[]|243|1742, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:41,639 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:41,639 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'usrtgzowcywlwwiucaanam', 'stack': 1757, 'state': 'participating'}], reward=-1, state=['S5', 'CJ']|['S8', 'SQ', 'C8', 'H9', 'D9']|243|1757, next_state=terminal
+2024-06-12 04:57:41,639 - INFO - Declare action: state=['H8', 'SQ']|[]|233|1747, action=fold, amount=0
+2024-06-12 04:57:41,640 - INFO - Updated Q-value for state: ['H8', 'SQ']|[]|233|1747, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:41,640 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:41,640 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'usrtgzowcywlwwiucaanam', 'stack': 1767, 'state': 'participating'}], reward=-1, state=['H8', 'SQ']|['SK', 'C3', 'S3', 'C6', 'DA']|233|1767, next_state=terminal
+2024-06-12 04:57:41,640 - INFO - Declare action: state=['H5', 'S2']|[]|228|1757, action=call, amount=0
+2024-06-12 04:57:41,641 - INFO - Updated Q-value for state: ['H5', 'S2']|[]|228|1757, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:41,641 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:41,641 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'usrtgzowcywlwwiucaanam', 'stack': 1772, 'state': 'participating'}], reward=-1, state=['H5', 'S2']|['D3', 'HQ', 'H8', 'SJ', 'D5']|228|1772, next_state=terminal
+2024-06-12 04:57:41,642 - INFO - Declare action: state=['D7', 'H4']|[]|218|1762, action=raise, amount=145
+2024-06-12 04:57:41,642 - INFO - Declare action: state=['D7', 'H4']|['C4', 'D5', 'S9']|83|1627, action=raise, amount=48
+2024-06-12 04:57:41,643 - INFO - Declare action: state=['D7', 'H4']|['C4', 'D5', 'S9', 'DQ']|35|1579, action=call, amount=0
+2024-06-12 04:57:41,644 - INFO - Declare action: state=['D7', 'H4']|['C4', 'D5', 'S9', 'DQ', 'HJ']|35|1579, action=raise, amount=18
+2024-06-12 04:57:41,645 - INFO - Updated Q-value for state: ['D7', 'H4']|['C4', 'D5', 'S9', 'DQ', 'HJ']|35|1579, action: raise, reward: -1, next state: terminal
+2024-06-12 04:57:41,645 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:41,645 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'usrtgzowcywlwwiucaanam', 'stack': 1983, 'state': 'participating'}], reward=-1, state=['D7', 'H4']|['C4', 'D5', 'S9', 'DQ', 'HJ']|17|1983, next_state=terminal
+2024-06-12 04:57:41,646 - INFO - Declare action: state=['S7', 'HK']|[]|12|1973, action=raise, amount=15
+2024-06-12 04:57:41,646 - INFO - Declare action: state=['S7', 'HK']|['H4', 'H3', 'DK']|2|1968, action=call, amount=0
+2024-06-12 04:57:41,647 - INFO - Declare action: state=['S7', 'HK']|['H4', 'H3', 'DK', 'C9']|2|1968, action=call, amount=0
+2024-06-12 04:57:41,647 - INFO - Declare action: state=['S7', 'HK']|['H4', 'H3', 'DK', 'C9', 'SK']|2|1968, action=raise, amount=-1
+2024-06-12 04:57:41,648 - INFO - Updated Q-value for state: ['S7', 'HK']|['H4', 'H3', 'DK', 'C9', 'SK']|2|1968, action: raise, reward: -1, next state: terminal
+2024-06-12 04:57:41,648 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:41,648 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'usrtgzowcywlwwiucaanam', 'stack': 1998, 'state': 'participating'}], reward=-1, state=['S7', 'HK']|['H4', 'H3', 'DK', 'C9', 'SK']|2|1998, next_state=terminal
+2024-06-12 04:57:41,648 - INFO - Round 1/1 against baseline0: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline2': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline3': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline4': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline5': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:57:41,778 - INFO - Declare action: state=['D5', 'D3']|[]|990|990, action=fold, amount=0
+2024-06-12 04:57:41,779 - INFO - Updated Q-value for state: ['D5', 'D3']|[]|990|990, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:41,779 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:41,779 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['D5', 'D3']|['D8', 'H2', 'S2', 'C5', 'C3']|990|1010, next_state=terminal
+2024-06-12 04:57:41,780 - INFO - Declare action: state=['S9', 'SK']|[]|985|1000, action=raise, amount=380
+2024-06-12 04:57:41,944 - INFO - Declare action: state=['S9', 'SK']|['H3', 'SA', 'DT']|610|630, action=call, amount=0
+2024-06-12 04:57:42,102 - INFO - Declare action: state=['S9', 'SK']|['H3', 'SA', 'DT', 'C3']|610|630, action=raise, amount=235
+2024-06-12 04:57:42,234 - INFO - Declare action: state=['S9', 'SK']|['H3', 'SA', 'DT', 'C3', 'H9']|375|395, action=raise, amount=39
+2024-06-12 04:57:42,449 - INFO - Updated Q-value for state: ['S9', 'SK']|['H3', 'SA', 'DT', 'C3', 'H9']|375|395, action: raise, reward: 1, next state: terminal
+2024-06-12 04:57:42,449 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:57:42,449 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'ztdhrfmrsexewshldglbuv', 'stack': 1605, 'state': 'participating'}], reward=1, state=['S9', 'SK']|['H3', 'SA', 'DT', 'C3', 'H9']|1605|395, next_state=terminal
+2024-06-12 04:57:42,661 - INFO - Declare action: state=['SK', 'S4']|[]|1595|385, action=call, amount=0
+2024-06-12 04:57:42,662 - INFO - Updated Q-value for state: ['SK', 'S4']|[]|1595|385, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:42,662 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:42,662 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 405, 'state': 'participating'}], reward=-1, state=['SK', 'S4']|['S5', 'HJ', 'D3', 'SA', 'C5']|1595|405, next_state=terminal
+2024-06-12 04:57:42,662 - INFO - Declare action: state=['C4', 'DK']|[]|1590|395, action=call, amount=0
+2024-06-12 04:57:42,663 - INFO - Updated Q-value for state: ['C4', 'DK']|[]|1590|395, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:42,663 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:42,663 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 410, 'state': 'participating'}], reward=-1, state=['C4', 'DK']|['C7', 'D4', 'S3', 'H6', 'D6']|1590|410, next_state=terminal
+2024-06-12 04:57:42,772 - INFO - Declare action: state=['H8', 'D4']|[]|1580|400, action=call, amount=0
+2024-06-12 04:57:42,773 - INFO - Updated Q-value for state: ['H8', 'D4']|[]|1580|400, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:42,773 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:42,773 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 420, 'state': 'participating'}], reward=-1, state=['H8', 'D4']|['S6', 'S7', 'SJ', 'DQ', 'C9']|1580|420, next_state=terminal
+2024-06-12 04:57:42,773 - INFO - Declare action: state=['H7', 'S5']|[]|1575|410, action=call, amount=0
+2024-06-12 04:57:42,774 - INFO - Updated Q-value for state: ['H7', 'S5']|[]|1575|410, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:42,774 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:42,774 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 425, 'state': 'participating'}], reward=-1, state=['H7', 'S5']|['HA', 'H9', 'C2', 'C3', 'SA']|1575|425, next_state=terminal
+2024-06-12 04:57:42,977 - INFO - Declare action: state=['CJ', 'H9']|[]|1565|415, action=raise, amount=888
+2024-06-12 04:57:43,162 - INFO - Updated Q-value for state: ['CJ', 'H9']|[]|1565|415, action: raise, reward: -1, next state: terminal
+2024-06-12 04:57:43,163 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:43,163 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 850, 'state': 'allin'}], reward=-1, state=['CJ', 'H9']|['S4', 'HQ', 'H7', 'DK', 'S5']|1150|850, next_state=terminal
+2024-06-12 04:57:43,163 - INFO - Declare action: state=['H6', 'C7']|[]|1145|840, action=fold, amount=0
+2024-06-12 04:57:43,163 - INFO - Updated Q-value for state: ['H6', 'C7']|[]|1145|840, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:43,164 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:43,164 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 855, 'state': 'participating'}], reward=-1, state=['H6', 'C7']|['H3', 'ST', 'C4', 'D9', 'CA']|1145|855, next_state=terminal
+2024-06-12 04:57:43,340 - INFO - Declare action: state=['C5', 'H6']|[]|1135|845, action=raise, amount=55
+2024-06-12 04:57:43,699 - INFO - Declare action: state=['C5', 'H6']|['SQ', 'CK', 'H9']|1090|800, action=call, amount=0
+2024-06-12 04:57:43,914 - INFO - Declare action: state=['C5', 'H6']|['SQ', 'CK', 'H9', 'H7']|1090|800, action=call, amount=0
+2024-06-12 04:57:44,112 - INFO - Declare action: state=['C5', 'H6']|['SQ', 'CK', 'H9', 'H7', 'ST']|1090|800, action=fold, amount=0
+2024-06-12 04:57:44,113 - INFO - Updated Q-value for state: ['C5', 'H6']|['SQ', 'CK', 'H9', 'H7', 'ST']|1090|800, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:44,113 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:44,113 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 910, 'state': 'participating'}], reward=-1, state=['C5', 'H6']|['SQ', 'CK', 'H9', 'H7', 'ST']|1090|910, next_state=terminal
+2024-06-12 04:57:44,113 - INFO - Declare action: state=['HQ', 'DK']|[]|1085|900, action=fold, amount=0
+2024-06-12 04:57:44,114 - INFO - Updated Q-value for state: ['HQ', 'DK']|[]|1085|900, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:44,114 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:44,114 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 915, 'state': 'participating'}], reward=-1, state=['HQ', 'DK']|['S2', 'CJ', 'HT', 'H9', 'H2']|1085|915, next_state=terminal
+2024-06-12 04:57:44,324 - INFO - Declare action: state=['DJ', 'H2']|[]|1075|905, action=call, amount=0
+2024-06-12 04:57:44,325 - INFO - Updated Q-value for state: ['DJ', 'H2']|[]|1075|905, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:44,326 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:44,326 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 925, 'state': 'participating'}], reward=-1, state=['DJ', 'H2']|['DQ', 'C9', 'HK', 'S2', 'D4']|1075|925, next_state=terminal
+2024-06-12 04:57:44,326 - INFO - Declare action: state=['D2', 'S2']|[]|1070|915, action=call, amount=0
+2024-06-12 04:57:44,327 - INFO - Updated Q-value for state: ['D2', 'S2']|[]|1070|915, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:44,327 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:44,327 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 930, 'state': 'participating'}], reward=-1, state=['D2', 'S2']|['C5', 'H8', 'HQ', 'D8', 'DK']|1070|930, next_state=terminal
+2024-06-12 04:57:44,501 - INFO - Declare action: state=['CA', 'D5']|[]|1060|920, action=fold, amount=0
+2024-06-12 04:57:44,502 - INFO - Updated Q-value for state: ['CA', 'D5']|[]|1060|920, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:44,502 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:44,502 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 940, 'state': 'participating'}], reward=-1, state=['CA', 'D5']|['DK', 'CQ', 'C9', 'C3', 'S3']|1060|940, next_state=terminal
+2024-06-12 04:57:44,502 - INFO - Declare action: state=['D6', 'C9']|[]|1055|930, action=raise, amount=875
+2024-06-12 04:57:44,624 - INFO - Declare action: state=['D6', 'C9']|['DA', 'D5', 'CA']|185|65, action=fold, amount=0
+2024-06-12 04:57:44,625 - INFO - Updated Q-value for state: ['D6', 'C9']|['DA', 'D5', 'CA']|185|65, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:44,625 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:44,625 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 1815, 'state': 'participating'}], reward=-1, state=['D6', 'C9']|['DA', 'D5', 'CA', 'DT', 'H2']|185|1815, next_state=terminal
+2024-06-12 04:57:44,753 - INFO - Declare action: state=['S8', 'S3']|[]|175|1805, action=call, amount=0
+2024-06-12 04:57:44,753 - INFO - Updated Q-value for state: ['S8', 'S3']|[]|175|1805, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:44,753 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:44,753 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 1825, 'state': 'participating'}], reward=-1, state=['S8', 'S3']|['H2', 'D6', 'C9', 'H6', 'HA']|175|1825, next_state=terminal
+2024-06-12 04:57:44,754 - INFO - Declare action: state=['HQ', 'CJ']|[]|170|1815, action=call, amount=0
+2024-06-12 04:57:44,754 - INFO - Updated Q-value for state: ['HQ', 'CJ']|[]|170|1815, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:44,755 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:44,755 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 1830, 'state': 'participating'}], reward=-1, state=['HQ', 'CJ']|['SJ', 'DJ', 'C5', 'S2', 'DT']|170|1830, next_state=terminal
+2024-06-12 04:57:44,889 - INFO - Declare action: state=['S2', 'CJ']|[]|160|1820, action=fold, amount=0
+2024-06-12 04:57:44,890 - INFO - Updated Q-value for state: ['S2', 'CJ']|[]|160|1820, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:44,890 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:44,890 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 1840, 'state': 'participating'}], reward=-1, state=['S2', 'CJ']|['S8', 'H4', 'DT', 'C8', 'C6']|160|1840, next_state=terminal
+2024-06-12 04:57:44,891 - INFO - Declare action: state=['H3', 'D6']|[]|155|1830, action=fold, amount=0
+2024-06-12 04:57:44,892 - INFO - Updated Q-value for state: ['H3', 'D6']|[]|155|1830, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:44,892 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:44,892 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 1845, 'state': 'participating'}], reward=-1, state=['H3', 'D6']|['DQ', 'C9', 'C4', 'HA', 'DT']|155|1845, next_state=terminal
+2024-06-12 04:57:45,101 - INFO - Declare action: state=['SJ', 'D8']|[]|145|1835, action=call, amount=0
+2024-06-12 04:57:45,102 - INFO - Updated Q-value for state: ['SJ', 'D8']|[]|145|1835, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:45,102 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:45,102 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 1855, 'state': 'participating'}], reward=-1, state=['SJ', 'D8']|['H7', 'SQ', 'H3', 'CJ', 'ST']|145|1855, next_state=terminal
+2024-06-12 04:57:45,103 - INFO - Declare action: state=['D7', 'SA']|[]|140|1845, action=call, amount=0
+2024-06-12 04:57:45,104 - INFO - Updated Q-value for state: ['D7', 'SA']|[]|140|1845, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:45,104 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:45,104 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'ndvgqfrwgnijptrngklvhw', 'stack': 1860, 'state': 'participating'}], reward=-1, state=['D7', 'SA']|['CK', 'C9', 'C5', 'H7', 'HK']|140|1860, next_state=terminal
+2024-06-12 04:57:45,104 - INFO - Round 1/1 against baseline1: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline2': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline3': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline4': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline5': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:57:45,814 - INFO - Declare action: state=['D9', 'CQ']|[]|990|990, action=fold, amount=0
+2024-06-12 04:57:45,815 - INFO - Updated Q-value for state: ['D9', 'CQ']|[]|990|990, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:45,815 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:45,815 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'sndxrpklpckfimwylibbyw', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['D9', 'CQ']|['CJ', 'SJ', 'DA', 'C9', 'DJ']|990|1010, next_state=terminal
+2024-06-12 04:57:45,816 - INFO - Declare action: state=['C3', 'H8']|[]|985|1000, action=call, amount=0
+2024-06-12 04:57:45,817 - INFO - Updated Q-value for state: ['C3', 'H8']|[]|985|1000, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:45,817 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:45,817 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'sndxrpklpckfimwylibbyw', 'stack': 1015, 'state': 'participating'}], reward=-1, state=['C3', 'H8']|['SK', 'C8', 'D7', 'DT', 'C5']|985|1015, next_state=terminal
+2024-06-12 04:57:46,333 - INFO - Declare action: state=['D6', 'H3']|[]|975|1005, action=fold, amount=0
+2024-06-12 04:57:46,334 - INFO - Updated Q-value for state: ['D6', 'H3']|[]|975|1005, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:46,334 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:46,334 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'sndxrpklpckfimwylibbyw', 'stack': 1025, 'state': 'participating'}], reward=-1, state=['D6', 'H3']|['C7', 'HT', 'S9', 'H5', 'D9']|975|1025, next_state=terminal
+2024-06-12 04:57:46,335 - INFO - Declare action: state=['S9', 'H5']|[]|970|1015, action=fold, amount=0
+2024-06-12 04:57:46,336 - INFO - Updated Q-value for state: ['S9', 'H5']|[]|970|1015, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:46,336 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:46,336 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'sndxrpklpckfimwylibbyw', 'stack': 1030, 'state': 'participating'}], reward=-1, state=['S9', 'H5']|['D2', 'S2', 'S6', 'SJ', 'D5']|970|1030, next_state=terminal
+2024-06-12 04:57:46,952 - INFO - Declare action: state=['DT', 'C8']|[]|960|1020, action=call, amount=0
+2024-06-12 04:57:46,952 - INFO - Updated Q-value for state: ['DT', 'C8']|[]|960|1020, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:46,952 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:46,952 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'sndxrpklpckfimwylibbyw', 'stack': 1040, 'state': 'participating'}], reward=-1, state=['DT', 'C8']|['S9', 'H9', 'CQ', 'C2', 'H5']|960|1040, next_state=terminal
+2024-06-12 04:57:46,953 - INFO - Declare action: state=['DJ', 'D7']|[]|955|1030, action=call, amount=0
+2024-06-12 04:57:46,953 - INFO - Updated Q-value for state: ['DJ', 'D7']|[]|955|1030, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:46,953 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:46,953 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'sndxrpklpckfimwylibbyw', 'stack': 1045, 'state': 'participating'}], reward=-1, state=['DJ', 'D7']|['D4', 'ST', 'D9', 'DQ', 'CJ']|955|1045, next_state=terminal
+2024-06-12 04:57:47,508 - INFO - Declare action: state=['CK', 'C3']|[]|945|1035, action=raise, amount=216
+2024-06-12 04:57:48,634 - INFO - Updated Q-value for state: ['CK', 'C3']|[]|945|1035, action: raise, reward: 1, next state: terminal
+2024-06-12 04:57:48,634 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:57:48,634 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'bsvqzpgzdrrmejdohrwvso', 'stack': 1171, 'state': 'participating'}], reward=1, state=['CK', 'C3']|['S4', 'S5', 'C9', 'S7', 'ST']|1171|829, next_state=terminal
+2024-06-12 04:57:48,634 - INFO - Declare action: state=['D5', 'SQ']|[]|1166|819, action=fold, amount=0
+2024-06-12 04:57:48,635 - INFO - Updated Q-value for state: ['D5', 'SQ']|[]|1166|819, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:48,636 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:48,636 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'sndxrpklpckfimwylibbyw', 'stack': 834, 'state': 'participating'}], reward=-1, state=['D5', 'SQ']|['S2', 'D2', 'S6', 'DJ', 'S8']|1166|834, next_state=terminal
+2024-06-12 04:57:49,460 - INFO - Declare action: state=['CK', 'C9']|[]|1156|824, action=call, amount=0
+2024-06-12 04:57:49,461 - INFO - Updated Q-value for state: ['CK', 'C9']|[]|1156|824, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:49,461 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:49,461 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'sndxrpklpckfimwylibbyw', 'stack': 844, 'state': 'participating'}], reward=-1, state=['CK', 'C9']|['D4', 'C3', 'SA', 'HT', 'C8']|1156|844, next_state=terminal
+2024-06-12 04:57:49,462 - INFO - Declare action: state=['D3', 'H5']|[]|1151|834, action=call, amount=0
+2024-06-12 04:57:49,463 - INFO - Updated Q-value for state: ['D3', 'H5']|[]|1151|834, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:49,463 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:49,463 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'sndxrpklpckfimwylibbyw', 'stack': 849, 'state': 'participating'}], reward=-1, state=['D3', 'H5']|['CA', 'C9', 'C7', 'H3', 'D9']|1151|849, next_state=terminal
+2024-06-12 04:57:50,180 - INFO - Declare action: state=['D6', 'H6']|[]|1141|839, action=raise, amount=53
+2024-06-12 04:57:51,687 - INFO - Declare action: state=['D6', 'H6']|['S6', 'H2', 'D9']|1098|796, action=raise, amount=125
+2024-06-12 04:57:52,914 - INFO - Declare action: state=['D6', 'H6']|['S6', 'H2', 'D9', 'SA']|973|671, action=call, amount=0
+2024-06-12 04:57:53,627 - INFO - Declare action: state=['D6', 'H6']|['S6', 'H2', 'D9', 'SA', 'HA']|973|460.0, action=raise, amount=555
+2024-06-12 04:57:54,346 - INFO - Updated Q-value for state: ['D6', 'H6']|['S6', 'H2', 'D9', 'SA', 'HA']|973|460.0, action: raise, reward: 1, next state: terminal
+2024-06-12 04:57:54,346 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:57:54,346 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'bsvqzpgzdrrmejdohrwvso', 'stack': 1540, 'state': 'participating'}], reward=1, state=['D6', 'H6']|['S6', 'H2', 'D9', 'SA', 'HA']|1540|460.0, next_state=terminal
+2024-06-12 04:57:54,346 - INFO - Declare action: state=['H2', 'D4']|[]|1535|450.0, action=call, amount=0
+2024-06-12 04:57:54,347 - INFO - Updated Q-value for state: ['H2', 'D4']|[]|1535|450.0, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:54,347 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:54,347 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'sndxrpklpckfimwylibbyw', 'stack': 465.0, 'state': 'participating'}], reward=-1, state=['H2', 'D4']|['S8', 'CA', 'H9', 'C3', 'D2']|1535|465.0, next_state=terminal
+2024-06-12 04:57:55,071 - INFO - Declare action: state=['C9', 'S7']|[]|1525|455.0, action=raise, amount=526
+2024-06-12 04:57:55,725 - INFO - Updated Q-value for state: ['C9', 'S7']|[]|1525|455.0, action: raise, reward: 1, next state: terminal
+2024-06-12 04:57:55,725 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:57:55,725 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'bsvqzpgzdrrmejdohrwvso', 'stack': 2000, 'state': 'participating'}], reward=1, state=['C9', 'S7']|['D3', 'D6', 'S2', 'C5', 'H4']|2000|0.0, next_state=terminal
+2024-06-12 04:57:55,725 - INFO - Round 1/1 against baseline2: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline2': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline3': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline4': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline5': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:57:57,524 - INFO - Declare action: state=['S8', 'D5']|[]|990|990, action=call, amount=0
+2024-06-12 04:57:57,525 - INFO - Updated Q-value for state: ['S8', 'D5']|[]|990|990, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:57,525 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:57,525 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yddkzovwqekyrbtrrmqfvo', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['S8', 'D5']|['C6', 'S5', 'HT', 'DA', 'D7']|990|1010, next_state=terminal
+2024-06-12 04:57:57,526 - INFO - Declare action: state=['CK', 'HJ']|[]|985|1000, action=raise, amount=487
+2024-06-12 04:57:58,756 - INFO - Updated Q-value for state: ['CK', 'HJ']|[]|985|1000, action: raise, reward: 1, next state: terminal
+2024-06-12 04:57:58,756 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:57:58,756 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'gssmbjgzhylespwkxkiivl', 'stack': 1000, 'state': 'participating'}], reward=1, state=['CK', 'HJ']|['D6', 'H5', 'D8', 'HA', 'H9']|1000|1000, next_state=terminal
+2024-06-12 04:57:58,865 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:57:58,865 - INFO - Declare action: state=['H2', 'DJ']|[]|1000|985, action=call, amount=0
+2024-06-12 04:57:58,866 - INFO - Updated Q-value for state: ['H2', 'DJ']|[]|1000|985, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:58,867 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:58,867 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yddkzovwqekyrbtrrmqfvo', 'stack': 1000, 'state': 'participating'}], reward=-1, state=['H2', 'DJ']|['S9', 'S2', 'C8', 'DQ', 'C9']|1000|1000, next_state=terminal
+2024-06-12 04:57:59,044 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:57:59,045 - INFO - Declare action: state=['D5', 'S5']|[]|1000|985, action=call, amount=0
+2024-06-12 04:57:59,046 - INFO - Updated Q-value for state: ['D5', 'S5']|[]|1000|985, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:59,046 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:59,046 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yddkzovwqekyrbtrrmqfvo', 'stack': 1000, 'state': 'participating'}], reward=-1, state=['D5', 'S5']|['S9', 'DJ', 'H7', 'S4', 'S8']|1000|1000, next_state=terminal
+2024-06-12 04:57:59,180 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:57:59,181 - INFO - Declare action: state=['HJ', 'DQ']|[]|1000|985, action=fold, amount=0
+2024-06-12 04:57:59,182 - INFO - Updated Q-value for state: ['HJ', 'DQ']|[]|1000|985, action: fold, reward: -1, next state: terminal
+2024-06-12 04:57:59,182 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:59,182 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yddkzovwqekyrbtrrmqfvo', 'stack': 1000, 'state': 'participating'}], reward=-1, state=['HJ', 'DQ']|['C2', 'D2', 'C8', 'S7', 'CT']|1000|1000, next_state=terminal
+2024-06-12 04:57:59,306 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:57:59,307 - INFO - Declare action: state=['S8', 'H5']|[]|1000|985, action=call, amount=0
+2024-06-12 04:57:59,307 - INFO - Updated Q-value for state: ['S8', 'H5']|[]|1000|985, action: call, reward: -1, next state: terminal
+2024-06-12 04:57:59,307 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:57:59,307 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yddkzovwqekyrbtrrmqfvo', 'stack': 1000, 'state': 'participating'}], reward=-1, state=['S8', 'H5']|['S7', 'H7', 'H3', 'HQ', 'C9']|1000|1000, next_state=terminal
+2024-06-12 04:57:59,756 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:57:59,756 - INFO - Declare action: state=['HJ', 'SJ']|[]|1000|985, action=raise, amount=942
+2024-06-12 04:57:59,908 - INFO - Updated Q-value for state: ['HJ', 'SJ']|[]|1000|985, action: raise, reward: 1, next state: terminal
+2024-06-12 04:57:59,908 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:57:59,908 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'gssmbjgzhylespwkxkiivl', 'stack': 1015, 'state': 'participating'}], reward=1, state=['HJ', 'SJ']|['SQ', 'HK', 'H2', 'S6', 'C4']|1015|985, next_state=terminal
+2024-06-12 04:58:00,066 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:00,067 - INFO - Declare action: state=['S4', 'S2']|[]|1015|970, action=raise, amount=571
+2024-06-12 04:58:00,194 - INFO - Updated Q-value for state: ['S4', 'S2']|[]|1015|970, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:00,194 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:00,194 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'gssmbjgzhylespwkxkiivl', 'stack': 1030, 'state': 'participating'}], reward=1, state=['S4', 'S2']|['CA', 'D6', 'DK', 'CQ', 'SK']|1030|970, next_state=terminal
+2024-06-12 04:58:00,687 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:00,687 - INFO - Declare action: state=['SK', 'H2']|[]|1030|955, action=raise, amount=238
+2024-06-12 04:58:00,861 - INFO - Updated Q-value for state: ['SK', 'H2']|[]|1030|955, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:00,861 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:00,861 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'gssmbjgzhylespwkxkiivl', 'stack': 1045, 'state': 'participating'}], reward=1, state=['SK', 'H2']|['S2', 'D6', 'CQ', 'H5', 'S6']|1045|955, next_state=terminal
+2024-06-12 04:58:01,044 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:01,045 - INFO - Declare action: state=['DA', 'D5']|[]|1045|940, action=raise, amount=804
+2024-06-12 04:58:01,162 - INFO - Updated Q-value for state: ['DA', 'D5']|[]|1045|940, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:01,163 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:01,163 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'gssmbjgzhylespwkxkiivl', 'stack': 1060, 'state': 'participating'}], reward=1, state=['DA', 'D5']|['D7', 'S5', 'DJ', 'HJ', 'S3']|1060|940, next_state=terminal
+2024-06-12 04:58:01,670 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:01,670 - INFO - Declare action: state=['SQ', 'C6']|[]|1060|925, action=call, amount=0
+2024-06-12 04:58:01,671 - INFO - Updated Q-value for state: ['SQ', 'C6']|[]|1060|925, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:01,672 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,672 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'yddkzovwqekyrbtrrmqfvo', 'stack': 940, 'state': 'participating'}], reward=-1, state=['SQ', 'C6']|['HT', 'ST', 'DT', 'CA', 'H6']|1060|940, next_state=terminal
+2024-06-12 04:58:01,672 - INFO - Round 1/1 against baseline3: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline2': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline3': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline4': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline5': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:58:01,675 - INFO - Declare action: state=['CQ', 'S6']|[]|990|990, action=fold, amount=0
+2024-06-12 04:58:01,676 - INFO - Updated Q-value for state: ['CQ', 'S6']|[]|990|990, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:01,676 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,676 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hyyivejjlgfmgdbfgpjlcm', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['CQ', 'S6']|['DJ', 'D9', 'HK', 'S5', 'S9']|990|1010, next_state=terminal
+2024-06-12 04:58:01,677 - INFO - Declare action: state=['HK', 'DK']|[]|985|1000, action=fold, amount=0
+2024-06-12 04:58:01,677 - INFO - Updated Q-value for state: ['HK', 'DK']|[]|985|1000, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:01,678 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,678 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hyyivejjlgfmgdbfgpjlcm', 'stack': 1015, 'state': 'participating'}], reward=-1, state=['HK', 'DK']|['HA', 'CQ', 'D7', 'C7', 'H7']|985|1015, next_state=terminal
+2024-06-12 04:58:01,679 - INFO - Declare action: state=['S9', 'SJ']|[]|975|947.39, action=fold, amount=0
+2024-06-12 04:58:01,679 - INFO - Updated Q-value for state: ['S9', 'SJ']|[]|975|947.39, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:01,680 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,680 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hyyivejjlgfmgdbfgpjlcm', 'stack': 1024.3899999999999, 'state': 'participating'}], reward=-1, state=['S9', 'SJ']|['H5', 'H8', 'DQ', 'C7', 'D9']|975|1024.3899999999999, next_state=terminal
+2024-06-12 04:58:01,680 - INFO - Declare action: state=['H5', 'H8']|[]|970|1014.3899999999999, action=fold, amount=0
+2024-06-12 04:58:01,681 - INFO - Updated Q-value for state: ['H5', 'H8']|[]|970|1014.3899999999999, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:01,681 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,681 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hyyivejjlgfmgdbfgpjlcm', 'stack': 1029.3899999999999, 'state': 'participating'}], reward=-1, state=['H5', 'H8']|['S6', 'HJ', 'DA', 'D2', 'H6']|970|1029.3899999999999, next_state=terminal
+2024-06-12 04:58:01,682 - INFO - Declare action: state=['D7', 'CK']|[]|960|914.4099999999999, action=call, amount=0
+2024-06-12 04:58:01,683 - INFO - Updated Q-value for state: ['D7', 'CK']|[]|960|914.4099999999999, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:01,683 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,683 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hyyivejjlgfmgdbfgpjlcm', 'stack': 1038.4099999999999, 'state': 'participating'}], reward=-1, state=['D7', 'CK']|['HJ', 'HQ', 'C8', 'SK', 'C4']|960|1038.4099999999999, next_state=terminal
+2024-06-12 04:58:01,684 - INFO - Declare action: state=['H4', 'D3']|[]|955|1028.4099999999999, action=fold, amount=0
+2024-06-12 04:58:01,685 - INFO - Updated Q-value for state: ['H4', 'D3']|[]|955|1028.4099999999999, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:01,685 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,685 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hyyivejjlgfmgdbfgpjlcm', 'stack': 1043.4099999999999, 'state': 'participating'}], reward=-1, state=['H4', 'D3']|['C3', 'S2', 'S9', 'HT', 'DA']|955|1043.4099999999999, next_state=terminal
+2024-06-12 04:58:01,686 - INFO - Declare action: state=['HK', 'H9']|[]|945|1033.4099999999999, action=fold, amount=0
+2024-06-12 04:58:01,687 - INFO - Updated Q-value for state: ['HK', 'H9']|[]|945|1033.4099999999999, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:01,687 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,687 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hyyivejjlgfmgdbfgpjlcm', 'stack': 1053.4099999999999, 'state': 'participating'}], reward=-1, state=['HK', 'H9']|['C8', 'DQ', 'D7', 'CT', 'H7']|945|1053.4099999999999, next_state=terminal
+2024-06-12 04:58:01,687 - INFO - Declare action: state=['SA', 'CA']|[]|940|1043.4099999999999, action=fold, amount=0
+2024-06-12 04:58:01,688 - INFO - Updated Q-value for state: ['SA', 'CA']|[]|940|1043.4099999999999, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:01,688 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,688 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hyyivejjlgfmgdbfgpjlcm', 'stack': 1058.4099999999999, 'state': 'participating'}], reward=-1, state=['SA', 'CA']|['D8', 'S8', 'S3', 'DA', 'DK']|940|1058.4099999999999, next_state=terminal
+2024-06-12 04:58:01,690 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:01,691 - INFO - Declare action: state=['H8', 'D7']|[]|925|1057.9199999999998, action=call, amount=0
+2024-06-12 04:58:01,692 - INFO - Updated Q-value for state: ['H8', 'D7']|[]|925|1057.9199999999998, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:01,692 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,692 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hyyivejjlgfmgdbfgpjlcm', 'stack': 1072.9199999999998, 'state': 'participating'}], reward=-1, state=['H8', 'D7']|['CQ', 'HA', 'SQ', 'D4', 'S9']|925|1072.9199999999998, next_state=terminal
+2024-06-12 04:58:01,693 - INFO - Declare action: state=['HT', 'D8']|[]|915|1062.9199999999998, action=call, amount=0
+2024-06-12 04:58:01,694 - INFO - Updated Q-value for state: ['HT', 'D8']|[]|915|1062.9199999999998, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:01,694 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,694 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hyyivejjlgfmgdbfgpjlcm', 'stack': 1082.9199999999998, 'state': 'participating'}], reward=-1, state=['HT', 'D8']|['S3', 'CJ', 'DQ', 'DJ', 'S8']|915|1082.9199999999998, next_state=terminal
+2024-06-12 04:58:01,694 - INFO - Declare action: state=['H6', 'D4']|[]|910|1072.9199999999998, action=raise, amount=735
+2024-06-12 04:58:01,695 - INFO - Updated Q-value for state: ['H6', 'D4']|[]|910|1072.9199999999998, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:01,696 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:01,696 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'abjjjwxqlkogdwpddltpcr', 'stack': 925, 'state': 'participating'}], reward=1, state=['H6', 'D4']|['C9', 'HT', 'S9', 'CT', 'HQ']|925|1072.9199999999998, next_state=terminal
+2024-06-12 04:58:01,697 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:01,697 - INFO - Declare action: state=['ST', 'D4']|[]|925|1057.9199999999998, action=raise, amount=925
+2024-06-12 04:58:01,699 - INFO - Updated Q-value for state: ['ST', 'D4']|[]|925|1057.9199999999998, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:01,699 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:01,699 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'abjjjwxqlkogdwpddltpcr', 'stack': 940, 'state': 'participating'}], reward=1, state=['ST', 'D4']|['S3', 'S2', 'H7', 'DQ', 'D6']|940|1057.9199999999998, next_state=terminal
+2024-06-12 04:58:01,700 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:01,701 - INFO - Declare action: state=['C6', 'H3']|[]|940|1042.9199999999998, action=fold, amount=0
+2024-06-12 04:58:01,701 - INFO - Updated Q-value for state: ['C6', 'H3']|[]|940|1042.9199999999998, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:01,702 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,702 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hyyivejjlgfmgdbfgpjlcm', 'stack': 1057.9199999999998, 'state': 'participating'}], reward=-1, state=['C6', 'H3']|['CA', 'D8', 'H9', 'H5', 'D3']|940|1057.9199999999998, next_state=terminal
+2024-06-12 04:58:01,702 - INFO - Declare action: state=['D3', 'DA']|[]|930|1047.9199999999998, action=raise, amount=134
+2024-06-12 04:58:01,704 - INFO - Updated Q-value for state: ['D3', 'DA']|[]|930|1047.9199999999998, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:01,704 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:01,704 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'abjjjwxqlkogdwpddltpcr', 'stack': 950, 'state': 'participating'}], reward=1, state=['D3', 'DA']|['S2', 'H2', 'H3', 'C6', 'SJ']|950|1047.9199999999998, next_state=terminal
+2024-06-12 04:58:01,704 - INFO - Declare action: state=['CJ', 'DQ']|[]|945|1037.9199999999998, action=fold, amount=0
+2024-06-12 04:58:01,705 - INFO - Updated Q-value for state: ['CJ', 'DQ']|[]|945|1037.9199999999998, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:01,705 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,705 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hyyivejjlgfmgdbfgpjlcm', 'stack': 1052.9199999999998, 'state': 'participating'}], reward=-1, state=['CJ', 'DQ']|['ST', 'HA', 'D7', 'S8', 'D9']|945|1052.9199999999998, next_state=terminal
+2024-06-12 04:58:01,706 - INFO - Declare action: state=['H7', 'D9']|[]|935|1042.9199999999998, action=raise, amount=325
+2024-06-12 04:58:01,708 - INFO - Updated Q-value for state: ['H7', 'D9']|[]|935|1042.9199999999998, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:01,708 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:01,708 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'abjjjwxqlkogdwpddltpcr', 'stack': 955, 'state': 'participating'}], reward=1, state=['H7', 'D9']|['S6', 'C7', 'C3', 'S8', 'D8']|955|1042.9199999999998, next_state=terminal
+2024-06-12 04:58:01,708 - INFO - Declare action: state=['H2', 'CJ']|[]|950|1032.9199999999998, action=call, amount=0
+2024-06-12 04:58:01,709 - INFO - Updated Q-value for state: ['H2', 'CJ']|[]|950|1032.9199999999998, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:01,709 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,709 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'hyyivejjlgfmgdbfgpjlcm', 'stack': 1047.9199999999998, 'state': 'participating'}], reward=-1, state=['H2', 'CJ']|['S3', 'S5', 'H5', 'C2', 'HJ']|950|1047.9199999999998, next_state=terminal
+2024-06-12 04:58:01,710 - INFO - Round 1/1 against baseline4: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline2': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline3': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline4': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline5': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:58:01,737 - INFO - Declare action: state=['C8', 'D9']|[]|990|990, action=raise, amount=513
+2024-06-12 04:58:01,763 - INFO - Updated Q-value for state: ['C8', 'D9']|[]|990|990, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:01,763 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:01,763 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'tlfadtoibrqfjgdbdllzzp', 'stack': 1010, 'state': 'participating'}], reward=1, state=['C8', 'D9']|['H8', 'S5', 'D2', 'DJ', 'S4']|1010|990, next_state=terminal
+2024-06-12 04:58:01,764 - INFO - Declare action: state=['S5', 'SA']|[]|1005|980, action=raise, amount=526
+2024-06-12 04:58:01,790 - INFO - Updated Q-value for state: ['S5', 'SA']|[]|1005|980, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:01,790 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:01,790 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'tlfadtoibrqfjgdbdllzzp', 'stack': 1020, 'state': 'participating'}], reward=1, state=['S5', 'SA']|['DJ', 'H5', 'ST', 'HQ', 'HK']|1020|980, next_state=terminal
+2024-06-12 04:58:01,817 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:01,817 - INFO - Declare action: state=['SQ', 'C5']|[]|1020|965, action=call, amount=0
+2024-06-12 04:58:01,818 - INFO - Updated Q-value for state: ['SQ', 'C5']|[]|1020|965, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:01,819 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,819 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'wzngocanvatysiwpeumvxy', 'stack': 980, 'state': 'participating'}], reward=-1, state=['SQ', 'C5']|['CT', 'S2', 'H8', 'D2', 'H6']|1020|980, next_state=terminal
+2024-06-12 04:58:01,845 - INFO - Declare action: state=['ST', 'S7']|[]|1010|970, action=fold, amount=0
+2024-06-12 04:58:01,846 - INFO - Updated Q-value for state: ['ST', 'S7']|[]|1010|970, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:01,846 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,846 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'wzngocanvatysiwpeumvxy', 'stack': 990, 'state': 'participating'}], reward=-1, state=['ST', 'S7']|['DT', 'CJ', 'HJ', 'H6', 'D2']|1010|990, next_state=terminal
+2024-06-12 04:58:01,846 - INFO - Declare action: state=['C7', 'H8']|[]|1005|980, action=fold, amount=0
+2024-06-12 04:58:01,847 - INFO - Updated Q-value for state: ['C7', 'H8']|[]|1005|980, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:01,847 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,847 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'wzngocanvatysiwpeumvxy', 'stack': 995, 'state': 'participating'}], reward=-1, state=['C7', 'H8']|['CA', 'SJ', 'CJ', 'D2', 'H9']|1005|995, next_state=terminal
+2024-06-12 04:58:01,873 - INFO - Declare action: state=['D5', 'DK']|[]|995|985, action=call, amount=0
+2024-06-12 04:58:01,874 - INFO - Updated Q-value for state: ['D5', 'DK']|[]|995|985, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:01,874 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,874 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'wzngocanvatysiwpeumvxy', 'stack': 1005, 'state': 'participating'}], reward=-1, state=['D5', 'DK']|['S9', 'C5', 'CJ', 'CA', 'HA']|995|1005, next_state=terminal
+2024-06-12 04:58:01,874 - INFO - Declare action: state=['DJ', 'D8']|[]|990|995, action=raise, amount=963
+2024-06-12 04:58:01,900 - INFO - Updated Q-value for state: ['DJ', 'D8']|[]|990|995, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:01,900 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:01,901 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'tlfadtoibrqfjgdbdllzzp', 'stack': 1005, 'state': 'participating'}], reward=1, state=['DJ', 'D8']|['H2', 'ST', 'SQ', 'C4', 'S3']|1005|995, next_state=terminal
+2024-06-12 04:58:01,926 - INFO - Declare action: state=['D5', 'D4']|[]|995|985, action=call, amount=0
+2024-06-12 04:58:01,927 - INFO - Updated Q-value for state: ['D5', 'D4']|[]|995|985, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:01,927 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,927 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'wzngocanvatysiwpeumvxy', 'stack': 1005, 'state': 'participating'}], reward=-1, state=['D5', 'D4']|['D2', 'S8', 'C8', 'C4', 'HQ']|995|1005, next_state=terminal
+2024-06-12 04:58:01,928 - INFO - Declare action: state=['DJ', 'C7']|[]|990|995, action=raise, amount=749
+2024-06-12 04:58:01,953 - INFO - Updated Q-value for state: ['DJ', 'C7']|[]|990|995, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:01,954 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:01,954 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'tlfadtoibrqfjgdbdllzzp', 'stack': 1005, 'state': 'participating'}], reward=1, state=['DJ', 'C7']|['S4', 'C2', 'C6', 'CJ', 'CK']|1005|995, next_state=terminal
+2024-06-12 04:58:01,979 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:01,980 - INFO - Declare action: state=['S3', 'DK']|[]|1005|980, action=call, amount=0
+2024-06-12 04:58:01,981 - INFO - Updated Q-value for state: ['S3', 'DK']|[]|1005|980, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:01,981 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:01,981 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'wzngocanvatysiwpeumvxy', 'stack': 995, 'state': 'participating'}], reward=-1, state=['S3', 'DK']|['S6', 'CA', 'C9', 'H4', 'S8']|1005|995, next_state=terminal
+2024-06-12 04:58:02,006 - INFO - Declare action: state=['C5', 'H9']|[]|995|985, action=raise, amount=188
+2024-06-12 04:58:02,031 - INFO - Updated Q-value for state: ['C5', 'H9']|[]|995|985, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:02,031 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:02,031 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'tlfadtoibrqfjgdbdllzzp', 'stack': 1015, 'state': 'participating'}], reward=1, state=['C5', 'H9']|['DT', 'S6', 'H3', 'SJ', 'H6']|1015|985, next_state=terminal
+2024-06-12 04:58:02,031 - INFO - Declare action: state=['H2', 'H3']|[]|1010|975, action=fold, amount=0
+2024-06-12 04:58:02,032 - INFO - Updated Q-value for state: ['H2', 'H3']|[]|1010|975, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:02,032 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,032 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'wzngocanvatysiwpeumvxy', 'stack': 990, 'state': 'participating'}], reward=-1, state=['H2', 'H3']|['H5', 'C6', 'D6', 'DQ', 'SQ']|1010|990, next_state=terminal
+2024-06-12 04:58:02,057 - INFO - Declare action: state=['SK', 'H6']|[]|1000|980, action=fold, amount=0
+2024-06-12 04:58:02,058 - INFO - Updated Q-value for state: ['SK', 'H6']|[]|1000|980, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:02,059 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,059 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'wzngocanvatysiwpeumvxy', 'stack': 1000, 'state': 'participating'}], reward=-1, state=['SK', 'H6']|['H3', 'H7', 'D8', 'DJ', 'CK']|1000|1000, next_state=terminal
+2024-06-12 04:58:02,059 - INFO - Declare action: state=['CA', 'S7']|[]|995|990, action=fold, amount=0
+2024-06-12 04:58:02,060 - INFO - Updated Q-value for state: ['CA', 'S7']|[]|995|990, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:02,060 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,060 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'wzngocanvatysiwpeumvxy', 'stack': 1005, 'state': 'participating'}], reward=-1, state=['CA', 'S7']|['D3', 'S2', 'DJ', 'C4', 'DT']|995|1005, next_state=terminal
+2024-06-12 04:58:02,086 - INFO - Declare action: state=['CT', 'D3']|[]|985|995, action=raise, amount=436
+2024-06-12 04:58:02,113 - INFO - Updated Q-value for state: ['CT', 'D3']|[]|985|995, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:02,113 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:02,113 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'tlfadtoibrqfjgdbdllzzp', 'stack': 1005, 'state': 'participating'}], reward=1, state=['CT', 'D3']|['DT', 'D5', 'C7', 'C8', 'S5']|1005|995, next_state=terminal
+2024-06-12 04:58:02,113 - INFO - Declare action: state=['SQ', 'S6']|[]|1000|985, action=call, amount=0
+2024-06-12 04:58:02,114 - INFO - Updated Q-value for state: ['SQ', 'S6']|[]|1000|985, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:02,114 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,115 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'wzngocanvatysiwpeumvxy', 'stack': 1000, 'state': 'participating'}], reward=-1, state=['SQ', 'S6']|['H6', 'H3', 'S4', 'H9', 'CA']|1000|1000, next_state=terminal
+2024-06-12 04:58:02,139 - INFO - Declare action: state=['S9', 'D7']|[]|990|990, action=raise, amount=24
+2024-06-12 04:58:02,280 - INFO - Declare action: state=['S9', 'D7']|['D8', 'SQ', 'D4']|976|976, action=fold, amount=0
+2024-06-12 04:58:02,281 - INFO - Updated Q-value for state: ['S9', 'D7']|['D8', 'SQ', 'D4']|976|976, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:02,281 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,281 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'wzngocanvatysiwpeumvxy', 'stack': 1024, 'state': 'participating'}], reward=-1, state=['S9', 'D7']|['D8', 'SQ', 'D4', 'CK', 'CT']|976|1024, next_state=terminal
+2024-06-12 04:58:02,282 - INFO - Declare action: state=['H9', 'C3']|[]|971|1014, action=call, amount=0
+2024-06-12 04:58:02,283 - INFO - Updated Q-value for state: ['H9', 'C3']|[]|971|1014, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:02,283 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,283 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'wzngocanvatysiwpeumvxy', 'stack': 1029, 'state': 'participating'}], reward=-1, state=['H9', 'C3']|['SQ', 'HA', 'CK', 'CT', 'SJ']|971|1029, next_state=terminal
+2024-06-12 04:58:02,283 - INFO - Round 1/1 against baseline5: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline2': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline3': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline4': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline5': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline6': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:58:02,286 - INFO - Declare action: state=['D7', 'H3']|[]|990|990, action=raise, amount=851
+2024-06-12 04:58:02,287 - INFO - Updated Q-value for state: ['D7', 'H3']|[]|990|990, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:02,287 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:02,287 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'dtmkkyspanviggjaodhdmh', 'stack': 1010, 'state': 'participating'}], reward=1, state=['D7', 'H3']|['DJ', 'S7', 'DK', 'CT', 'ST']|1010|990, next_state=terminal
+2024-06-12 04:58:02,288 - INFO - Declare action: state=['HA', 'CJ']|[]|1005|980, action=raise, amount=956
+2024-06-12 04:58:02,519 - INFO - Declare action: state=['HA', 'CJ']|['CA', 'C3', 'H7']|54|34, action=fold, amount=0
+2024-06-12 04:58:02,520 - INFO - Updated Q-value for state: ['HA', 'CJ']|['CA', 'C3', 'H7']|54|34, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:02,520 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,520 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'txtjibwuucqgblfdfhrgmp', 'stack': 1946, 'state': 'participating'}], reward=-1, state=['HA', 'CJ']|['CA', 'C3', 'H7', 'HK', 'D8']|54|1946, next_state=terminal
+2024-06-12 04:58:02,521 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,521 - INFO - Declare action: state=['D5', 'S7']|[]|54|1931, action=call, amount=0
+2024-06-12 04:58:02,522 - INFO - Updated Q-value for state: ['D5', 'S7']|[]|54|1931, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:02,522 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,522 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'txtjibwuucqgblfdfhrgmp', 'stack': 1946, 'state': 'participating'}], reward=-1, state=['D5', 'S7']|['SJ', 'C9', 'H8', 'C6', 'HK']|54|1946, next_state=terminal
+2024-06-12 04:58:02,523 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,524 - INFO - Declare action: state=['SK', 'D9']|[]|54|1931, action=fold, amount=0
+2024-06-12 04:58:02,524 - INFO - Updated Q-value for state: ['SK', 'D9']|[]|54|1931, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:02,524 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,524 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'txtjibwuucqgblfdfhrgmp', 'stack': 1946, 'state': 'participating'}], reward=-1, state=['SK', 'D9']|['HT', 'SQ', 'CJ', 'H6', 'D2']|54|1946, next_state=terminal
+2024-06-12 04:58:02,525 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,526 - INFO - Declare action: state=['HK', 'D6']|[]|54|1931, action=raise, amount=55
+2024-06-12 04:58:02,527 - INFO - Updated Q-value for state: ['HK', 'D6']|[]|54|1931, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:02,527 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:02,527 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'dtmkkyspanviggjaodhdmh', 'stack': 69, 'state': 'participating'}], reward=1, state=['HK', 'D6']|['S5', 'S8', 'C4', 'S6', 'DT']|69|1931, next_state=terminal
+2024-06-12 04:58:02,528 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,528 - INFO - Declare action: state=['DT', 'C6']|[]|69|1916, action=fold, amount=0
+2024-06-12 04:58:02,529 - INFO - Updated Q-value for state: ['DT', 'C6']|[]|69|1916, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:02,529 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,529 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'txtjibwuucqgblfdfhrgmp', 'stack': 1931, 'state': 'participating'}], reward=-1, state=['DT', 'C6']|['H9', 'SJ', 'SQ', 'ST', 'D6']|69|1931, next_state=terminal
+2024-06-12 04:58:02,530 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,530 - INFO - Declare action: state=['HJ', 'H4']|[]|69|1916, action=fold, amount=0
+2024-06-12 04:58:02,531 - INFO - Updated Q-value for state: ['HJ', 'H4']|[]|69|1916, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:02,531 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,531 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'txtjibwuucqgblfdfhrgmp', 'stack': 1931, 'state': 'participating'}], reward=-1, state=['HJ', 'H4']|['D7', 'HA', 'CT', 'H3', 'S2']|69|1931, next_state=terminal
+2024-06-12 04:58:02,532 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,532 - INFO - Declare action: state=['S3', 'S8']|[]|69|1916, action=call, amount=0
+2024-06-12 04:58:02,533 - INFO - Updated Q-value for state: ['S3', 'S8']|[]|69|1916, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:02,533 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,533 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'txtjibwuucqgblfdfhrgmp', 'stack': 1931, 'state': 'participating'}], reward=-1, state=['S3', 'S8']|['H2', 'SK', 'DA', 'CQ', 'H6']|69|1931, next_state=terminal
+2024-06-12 04:58:02,534 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,534 - INFO - Declare action: state=['C9', 'HK']|[]|69|1916, action=call, amount=0
+2024-06-12 04:58:02,535 - INFO - Updated Q-value for state: ['C9', 'HK']|[]|69|1916, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:02,535 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,535 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'txtjibwuucqgblfdfhrgmp', 'stack': 1931, 'state': 'participating'}], reward=-1, state=['C9', 'HK']|['C5', 'SK', 'H5', 'DQ', 'H8']|69|1931, next_state=terminal
+2024-06-12 04:58:02,536 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,536 - INFO - Declare action: state=['D6', 'C8']|[]|69|1916, action=call, amount=0
+2024-06-12 04:58:02,537 - INFO - Updated Q-value for state: ['D6', 'C8']|[]|69|1916, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:02,537 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,537 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'txtjibwuucqgblfdfhrgmp', 'stack': 1931, 'state': 'participating'}], reward=-1, state=['D6', 'C8']|['SJ', 'DK', 'SK', 'S7', 'H2']|69|1931, next_state=terminal
+2024-06-12 04:58:02,537 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,538 - INFO - Declare action: state=['D7', 'C5']|[]|69|1916, action=raise, amount=40
+2024-06-12 04:58:02,538 - INFO - Updated Q-value for state: ['D7', 'C5']|[]|69|1916, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:02,539 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:02,539 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'dtmkkyspanviggjaodhdmh', 'stack': 84, 'state': 'participating'}], reward=1, state=['D7', 'C5']|['S8', 'D5', 'ST', 'H2', 'C2']|84|1916, next_state=terminal
+2024-06-12 04:58:02,539 - INFO - Round 1/1 against baseline6: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline2': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline3': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline4': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline5': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline6': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline7': {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0}}
+2024-06-12 04:58:02,540 - INFO - Declare action: state=['CQ', 'CJ']|[]|990|975, action=fold, amount=0
+2024-06-12 04:58:02,541 - INFO - Updated Q-value for state: ['CQ', 'CJ']|[]|990|975, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:02,541 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,541 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhfzgmmfxphckvekyozufe', 'stack': 1010, 'state': 'participating'}], reward=-1, state=['CQ', 'CJ']|['SJ', 'D2', 'SA', 'HA', 'C4']|990|1010, next_state=terminal
+2024-06-12 04:58:02,541 - INFO - Declare action: state=['CK', 'HA']|[]|985|1000, action=call, amount=0
+2024-06-12 04:58:02,542 - INFO - Updated Q-value for state: ['CK', 'HA']|[]|985|1000, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:02,542 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,542 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhfzgmmfxphckvekyozufe', 'stack': 1015, 'state': 'participating'}], reward=-1, state=['CK', 'HA']|['S3', 'C6', 'D4', 'D9', 'D6']|985|1015, next_state=terminal
+2024-06-12 04:58:02,542 - INFO - Declare action: state=['D6', 'D4']|[]|975|990, action=raise, amount=430
+2024-06-12 04:58:02,543 - INFO - Updated Q-value for state: ['D6', 'D4']|[]|975|990, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:02,543 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:02,543 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'drkcnyaoekmqkmxyrmpvce', 'stack': 1010, 'state': 'participating'}], reward=1, state=['D6', 'D4']|['C9', 'CJ', 'H3', 'SA', 'C7']|1010|990, next_state=terminal
+2024-06-12 04:58:02,544 - INFO - Declare action: state=['SA', 'HA']|[]|1005|980, action=raise, amount=314
+2024-06-12 04:58:02,544 - INFO - Updated Q-value for state: ['SA', 'HA']|[]|1005|980, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:02,545 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:02,545 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'drkcnyaoekmqkmxyrmpvce', 'stack': 1020, 'state': 'participating'}], reward=1, state=['SA', 'HA']|['D5', 'S7', 'C9', 'H3', 'DA']|1020|980, next_state=terminal
+2024-06-12 04:58:02,545 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,546 - INFO - Declare action: state=['H5', 'CA']|[]|1020|965, action=raise, amount=562
+2024-06-12 04:58:02,546 - INFO - Declare action: state=['H5', 'CA']|['H3', 'H7', 'HQ']|463|413, action=fold, amount=0
+2024-06-12 04:58:02,547 - INFO - Updated Q-value for state: ['H5', 'CA']|['H3', 'H7', 'HQ']|463|413, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:02,547 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,547 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhfzgmmfxphckvekyozufe', 'stack': 1537, 'state': 'participating'}], reward=-1, state=['H5', 'CA']|['H3', 'H7', 'HQ', 'SQ', 'HT']|463|1537, next_state=terminal
+2024-06-12 04:58:02,548 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,548 - INFO - Declare action: state=['C4', 'SK']|[]|463|1522, action=call, amount=0
+2024-06-12 04:58:02,549 - INFO - Updated Q-value for state: ['C4', 'SK']|[]|463|1522, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:02,549 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,549 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhfzgmmfxphckvekyozufe', 'stack': 1537, 'state': 'participating'}], reward=-1, state=['C4', 'SK']|['C9', 'HT', 'HQ', 'CJ', 'C2']|463|1537, next_state=terminal
+2024-06-12 04:58:02,550 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,550 - INFO - Declare action: state=['H5', 'C9']|[]|463|1522, action=raise, amount=106
+2024-06-12 04:58:02,551 - INFO - Updated Q-value for state: ['H5', 'C9']|[]|463|1522, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:02,551 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:02,551 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'drkcnyaoekmqkmxyrmpvce', 'stack': 478, 'state': 'participating'}], reward=1, state=['H5', 'C9']|['C5', 'D2', 'H8', 'ST', 'S9']|478|1522, next_state=terminal
+2024-06-12 04:58:02,552 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,553 - INFO - Declare action: state=['HK', 'DT']|[]|478|1507, action=call, amount=0
+2024-06-12 04:58:02,553 - INFO - Updated Q-value for state: ['HK', 'DT']|[]|478|1507, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:02,553 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,553 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhfzgmmfxphckvekyozufe', 'stack': 1522, 'state': 'participating'}], reward=-1, state=['HK', 'DT']|['CA', 'SJ', 'S5', 'CQ', 'H7']|478|1522, next_state=terminal
+2024-06-12 04:58:02,554 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,554 - INFO - Declare action: state=['C5', 'D4']|[]|478|1507, action=raise, amount=368
+2024-06-12 04:58:02,555 - INFO - Updated Q-value for state: ['C5', 'D4']|[]|478|1507, action: raise, reward: 1, next state: terminal
+2024-06-12 04:58:02,555 - INFO - TD Target: 1.0, TD Error: 1.0, Updated Q-value: 0.1
+2024-06-12 04:58:02,555 - INFO - Round result: winners=[{'name': 'q_learning', 'uuid': 'drkcnyaoekmqkmxyrmpvce', 'stack': 493, 'state': 'participating'}], reward=1, state=['C5', 'D4']|['C9', 'D7', 'H9', 'DK', 'D9']|493|1507, next_state=terminal
+2024-06-12 04:58:02,556 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,557 - INFO - Declare action: state=['S3', 'D3']|[]|493|1492, action=call, amount=0
+2024-06-12 04:58:02,557 - INFO - Updated Q-value for state: ['S3', 'D3']|[]|493|1492, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:02,557 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,557 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhfzgmmfxphckvekyozufe', 'stack': 1507, 'state': 'participating'}], reward=-1, state=['S3', 'D3']|['C8', 'C9', 'HA', 'C2', 'C7']|493|1507, next_state=terminal
+2024-06-12 04:58:02,558 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,559 - INFO - Declare action: state=['SJ', 'H9']|[]|493|1492, action=fold, amount=0
+2024-06-12 04:58:02,559 - INFO - Updated Q-value for state: ['SJ', 'H9']|[]|493|1492, action: fold, reward: -1, next state: terminal
+2024-06-12 04:58:02,559 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,559 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhfzgmmfxphckvekyozufe', 'stack': 1507, 'state': 'participating'}], reward=-1, state=['SJ', 'H9']|['C2', 'DQ', 'S6', 'D7', 'H5']|493|1507, next_state=terminal
+2024-06-12 04:58:02,560 - WARNING - Missing previous state or action for Q-learning update, skipping.
+2024-06-12 04:58:02,561 - INFO - Declare action: state=['C2', 'D7']|[]|493|1492, action=call, amount=0
+2024-06-12 04:58:02,561 - INFO - Updated Q-value for state: ['C2', 'D7']|[]|493|1492, action: call, reward: -1, next state: terminal
+2024-06-12 04:58:02,561 - INFO - TD Target: -1.0, TD Error: -1.0, Updated Q-value: -0.1
+2024-06-12 04:58:02,561 - INFO - Round result: winners=[{'name': 'baseline', 'uuid': 'jhfzgmmfxphckvekyozufe', 'stack': 1507, 'state': 'participating'}], reward=-1, state=['C2', 'D7']|['H3', 'D4', 'H5', 'HK', 'HQ']|493|1507, next_state=terminal
+2024-06-12 04:58:02,562 - INFO - Round 1/1 against baseline7: Results - {'baseline0': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline1': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline2': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline3': {'wins': 1, 'losses': 0, 'draws': 0, 'winning_rate': 1.0}, 'baseline4': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline5': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline6': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}, 'baseline7': {'wins': 0, 'losses': 1, 'draws': 0, 'winning_rate': 0.0}}
+2024-06-12 04:58:02,562 - INFO - Training completed and model saved.
