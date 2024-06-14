@@ -1,0 +1,14 @@
+{
+    "baseline0": {
+        "wins": 0,
+        "losses": 10,
+        "draws": 0,
+        "winning_rate": 0.0
+    },
+    "baseline1": {
+        "wins": 0,
+        "losses": 10,
+        "draws": 0,
+        "winning_rate": 0.0
+    }
+}

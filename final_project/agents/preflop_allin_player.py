@@ -169,6 +169,13 @@ class CallPlayer(BasePokerPlayer):
 
     def declare_action(self, valid_actions, hole_card, round_state):
         print(hole_card)
+        # print(self.uuid)
+        # # print(round_state)
+        # print(round_state['seats'])
+        # print(f"my_seat: {my_seat}")
+        # print(f"opponent_seat: {opponent_seat}")
+
+
         card1, card2 = hole_card
         rank1, suit1 = card1[1], card1[0]
         rank2, suit2 = card2[1], card2[0]
@@ -184,14 +191,18 @@ class CallPlayer(BasePokerPlayer):
         hand_data = next((item for item in winning_table if item["hand"] == hole_card_str), None)
         print(f"winning_rate: {hand_data['win']}%")
 
-        blind_remaining = calculate_remaining(round_state)
-        print(round_state['seats'][1])
-        print('player 1: ', round_state['seats'][0]['stack'] + blind_remaining)
-        print('player 2: ', round_state['seats'][1]['stack'] - blind_remaining)
 
-        if round_state['seats'][1]['stack'] - blind_remaining >= round_state['seats'][0]['stack'] + blind_remaining:
+        player_uuid = self.uuid
+        my_seat = next(seat for seat in round_state['seats'] if seat['uuid'] == player_uuid)
+        opponent_seat = next(seat for seat in round_state['seats'] if seat['uuid'] != player_uuid)
+        blind_remaining = calculate_remaining(round_state)
+        
+        print('player: ', my_seat['stack'] + blind_remaining)
+        print('opponent: ', opponent_seat['stack'] - blind_remaining)
+
+        if my_seat['stack'] - blind_remaining >= opponent_seat['stack'] + blind_remaining:
             print("Fold with enough blind remaining")
-            print(round_state['seats'][1]['stack'], round_state['seats'][0]['stack'], blind_remaining)
+            print(opponent_seat['stack'], my_seat['stack'], blind_remaining)
 
             fold_action_info = valid_actions[0]
             action, amount = fold_action_info["action"], fold_action_info["amount"]
@@ -222,6 +233,7 @@ class CallPlayer(BasePokerPlayer):
 
     def receive_round_result_message(self, winners, hand_info, round_state):
         pass
+        # print(f"Round ended. Winners: {winners['name']} with stack: {winners['stack']}, Hand info: {hand_info}, Round state: {round_state}")
 
 def setup_ai(threshold):
     return CallPlayer(threshold)

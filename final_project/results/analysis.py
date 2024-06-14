@@ -14,7 +14,7 @@ def find_thresholds_above_rate(results, rate):
     return common_thresholds
 
 
-# 53, 49, 45, 44, 43,41
+# 53, 49, 45, 44, 42
 def print_threshold_rates(results):
     # Iterate over each threshold
     for threshold in results[next(iter(results))].keys():
@@ -29,7 +29,7 @@ def print_threshold_rates(results):
 
 
 # Load the results JSON file
-file_path = './call_player_results.json'
+file_path = './call_player_results_1.json'
 with open(file_path, 'r') as file:
     results = json.load(file)
 

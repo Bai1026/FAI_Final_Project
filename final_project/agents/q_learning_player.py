@@ -280,13 +280,14 @@ class QLearning:
             print(f'Initializing state: {state}')
             self.q_table[state] = defaultdict(float)
         # print('table')
-        print(self.q_table[state])
+        # print(self.q_table[state])
+
         for action in actions:
             if action not in self.q_table[state]:
                 # print('occur')
                 self.q_table[state][action] = 0.0
         
-            print(action)
+            # print(action)
 
     def save_model(self, filename):
         with open(filename, 'wb') as f:
@@ -295,6 +296,18 @@ class QLearning:
     def load_model(self, filename):
         with open(filename, 'rb') as f:
             self.q_table = pickle.load(f)
+
+
+def calculate_remaining(round_state):
+    blind_remaining = 0
+    round_count = int(round_state['round_count'])
+    round_remaining = 20 - round_count
+
+    blind_remaining += ((round_remaining // 2) + 1) * 5
+    blind_remaining += (((round_remaining - 1) // 2) + 1) * 10
+    print(blind_remaining)
+
+    return blind_remaining
 
 
 import os
@@ -321,6 +334,22 @@ class QLearningPlayer(BasePokerPlayer):
         actions = [action['action'] for action in valid_actions]
         action = self.ql.choose_action(state, actions)
         amount = 0
+
+        blind_remaining = calculate_remaining(round_state)
+        print(round_state['seats'][0])
+        print('player 1: ', round_state['seats'][0]['stack'] + blind_remaining)
+        print('player 2: ', round_state['seats'][1]['stack'] - blind_remaining)
+
+        if round_state['seats'][0]['stack'] - blind_remaining >= round_state['seats'][1]['stack'] + blind_remaining:
+            # print("Fold with enough blind remaining")
+            # print(round_state['seats'][0]['stack'], round_state['seat'][1]['stack'], blind_remaining)
+            logging.info(f"Fold with enough blind remaining")
+            logging.info(f"Player 1: {round_state['seats'][0]['stack']}, Player 2: {round_state['seats'][1]['stack']}, Blind Remaining: {blind_remaining}")
+
+            fold_action_info = valid_actions[0]
+            action, amount = fold_action_info["action"], fold_action_info["amount"]
+            return action, amount
+        
 
         if action == 'raise':
             amount = random.randint(valid_actions[2]['amount']['min'], valid_actions[2]['amount']['max'])
@@ -362,7 +391,7 @@ class QLearningPlayer(BasePokerPlayer):
     def init_game_state(self, hole_card, round_state):
         community_cards = round_state['community_card'] if round_state['community_card'] else []
         state = f"{hole_card}|{community_cards}|{round_state['seats'][0]['stack']}|{round_state['seats'][1]['stack']}"
-        print(f'init_game_state: {state}')
+        # print(f'init_game_state: {state}')
         return state
     
     def save_model(self):

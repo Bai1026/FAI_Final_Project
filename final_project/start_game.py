@@ -86,16 +86,6 @@ from baseline6 import setup_ai as baseline6_ai
 from baseline7 import setup_ai as baseline7_ai
 
 
-baseline_players = [
-    baseline0_ai, baseline1_ai, baseline2_ai, baseline3_ai,
-    baseline4_ai, baseline5_ai, baseline6_ai, baseline7_ai
-]
-
-# baseline_players = [
-#     baseline0_ai, baseline1_ai
-# ]
-
-
 def train_call_player_with_baselines(thresholds, baseline_players, training_rounds=10):
     results = {f"baseline{i}": {threshold: {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0} for threshold in thresholds} for i in range(len(baseline_players))}
 
@@ -104,22 +94,22 @@ def train_call_player_with_baselines(thresholds, baseline_players, training_roun
         call_player = preflop_allin_ai(threshold)
         
         for baseline_index in tqdm(range(len(baseline_players))):
-            for _ in range(training_rounds):
+            for i in range(training_rounds):
                 baseline_ai = baseline_players[baseline_index]
                 baseline_name = f"baseline{baseline_index}"
                 print('Playing against:', baseline_name)
 
-                # 设置游戏配置
                 config = setup_config(max_round=20, initial_stack=1000, small_blind_amount=5)
 
-                # 注册玩家
-                config.register_player(name="baseline", algorithm=baseline_ai())
-                config.register_player(name="call_player", algorithm=call_player)
+                if i % 2 == 0:
+                    config.register_player(name="baseline", algorithm=baseline_ai())
+                    config.register_player(name="call_player", algorithm=call_player)
+                else:
+                    config.register_player(name="call_player", algorithm=call_player)
+                    config.register_player(name="baseline", algorithm=baseline_ai())
 
-                # 运行游戏
                 game_result = start_poker(config, verbose=0)
 
-                # 记录胜负
                 for player in game_result["players"]:
                     if player["name"] == "call_player":
                         if player["stack"] > 1000:
@@ -144,6 +134,19 @@ def train_call_player_with_baselines(thresholds, baseline_players, training_roun
         json.dump(results, f, indent=4)
     print('Game result saved to', result_file)
 
+
+baseline_players = [
+    baseline0_ai, baseline1_ai, baseline2_ai, baseline3_ai,
+    baseline4_ai, baseline5_ai, baseline6_ai, baseline7_ai
+]
+
+# baseline_players = [
+#     baseline0_ai, baseline1_ai
+# ]
+
+
 # 执行训练
-thresholds = range(40, 71)
-train_call_player_with_baselines(thresholds, baseline_players, training_rounds=10)
+# thresholds = range(40, 71)
+thresholds = [53, 49, 45, 44, 42]
+# thresholds = [49]
+train_call_player_with_baselines(thresholds, baseline_players, training_rounds=100)

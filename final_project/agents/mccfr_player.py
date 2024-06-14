@@ -186,26 +186,39 @@ class MCCFRPlayer(BasePokerPlayer):
         print()
 
         blind_remaining = calculate_remaining(round_state)
-        print(round_state['seats'][0])
-        print('player 1: ', round_state['seats'][0]['stack'] + blind_remaining)
-        print('player 2: ', round_state['seats'][1]['stack'] - blind_remaining)
+
+        # print(round_state['seats'][0])
+        # print('player 1: ', round_state['seats'][0]['stack'] + blind_remaining)
+        # print('player 2: ', round_state['seats'][1]['stack'] - blind_remaining)
 
 
-        if round_state['seats'][0]['stack'] - blind_remaining >= round_state['seats'][1]['stack'] + blind_remaining:
+        # if round_state['seats'][0]['stack'] - blind_remaining >= round_state['seats'][1]['stack'] + blind_remaining:
+        #     print("Fold with enough blind remaining")
+        #     print(round_state['seats'][0]['stack'], round_state['seat'][1]['stack'], blind_remaining)
+
+        #     fold_action_info = valid_actions[0]
+        #     action, amount = fold_action_info["action"], fold_action_info["amount"]
+        #     return action, amount
+        
+        player_uuid = self.uuid
+        my_seat = next(seat for seat in round_state['seats'] if seat['uuid'] == player_uuid)
+        opponent_seat = next(seat for seat in round_state['seats'] if seat['uuid'] != player_uuid)
+        blind_remaining = calculate_remaining(round_state)
+        
+        print('player: ', my_seat['stack'] + blind_remaining)
+        print('opponent: ', opponent_seat['stack'] - blind_remaining)
+
+        if my_seat['stack'] - blind_remaining >= opponent_seat['stack'] + blind_remaining:
             print("Fold with enough blind remaining")
-            print(round_state['seats'][0]['stack'], round_state['seat'][1]['stack'], blind_remaining)
+            print(opponent_seat['stack'], my_seat['stack'], blind_remaining)
 
             fold_action_info = valid_actions[0]
             action, amount = fold_action_info["action"], fold_action_info["amount"]
             return action, amount
         
-
-        # with open('regret_tracking.json', 'r') as f:
-        #     json.dump(limited_regret_sum, f)
-        #     print('Output regret_tracking.json')
-        
         action = self.mccfr.get_action(state, state['current_player'])
         print(f"Action chosen: {action}")
+
 
         for valid_action in valid_actions:
             if valid_action['action'] == action:

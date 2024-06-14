@@ -88,18 +88,6 @@ from baseline5 import setup_ai as baseline5_ai
 from baseline6 import setup_ai as baseline6_ai
 from baseline7 import setup_ai as baseline7_ai
 
-# 基准玩家列表
-baseline_players = [
-    baseline0_ai, baseline1_ai, baseline2_ai, baseline3_ai,
-    baseline4_ai, baseline5_ai, baseline6_ai, baseline7_ai
-]
-
-# MCCFR Player设置
-iterations = 10000
-# model_file = "mccfr_model.pkl"
-model_file = "./agents/model/mccfr_model.pkl"
-mccfr_player = MCCFRPlayer(iterations=iterations, model_file=model_file)
-
 # def train_mccfr_with_baselines(mccfr_player, baseline_players, training_rounds=1000):
 #     results = {f"baseline{i}": {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0} for i in range(len(baseline_players))}
 #     win_rates = {f"baseline{i}": [] for i in range(len(baseline_players))}
@@ -144,7 +132,7 @@ mccfr_player = MCCFRPlayer(iterations=iterations, model_file=model_file)
 #     # visualize_regret(mccfr_player.mccfr)
 #     print("Training completed and model saved.")
 
-def train_mccfr_with_baselines(mccfr_player, baseline_players, rounds_per_baseline=100):
+def train_mccfr_with_baselines(mccfr_player, baseline_players, rounds_per_baseline=10):
     results = {f"baseline{i}": {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0} for i in range(len(baseline_players))}
     win_rates = {f"baseline{i}": [] for i in range(len(baseline_players))}
 
@@ -153,16 +141,17 @@ def train_mccfr_with_baselines(mccfr_player, baseline_players, rounds_per_baseli
         print(f'Training against: {baseline_name}')
 
         for i in tqdm(range(rounds_per_baseline)):
-            # 设置游戏配置
             config = setup_config(max_round=20, initial_stack=1000, small_blind_amount=5)
             
-            # 注册玩家
-            config.register_player(name="mccfr", algorithm=mccfr_player)
-            config.register_player(name="baseline", algorithm=baseline_ai())
+            if i % 2 == 0:
+                config.register_player(name="mccfr", algorithm=mccfr_player)
+                config.register_player(name="baseline", algorithm=baseline_ai())
+            else:
+                config.register_player(name="baseline", algorithm=baseline_ai())
+                config.register_player(name="mccfr", algorithm=mccfr_player)
             
             game_result = start_poker(config, verbose=1)
 
-            # 记录胜负
             for player in game_result["players"]:
                 if player["name"] == "mccfr":
                     if player["stack"] > 1000:
@@ -197,7 +186,21 @@ def train_mccfr_with_baselines(mccfr_player, baseline_players, rounds_per_baseli
     print('Game result saved to', result_file)
 
 
-train_mccfr_with_baselines(mccfr_player, baseline_players, rounds_per_baseline=400)
+# 基准玩家列表
+baseline_players = [
+    baseline0_ai, baseline1_ai, baseline2_ai, baseline3_ai,
+    baseline4_ai, baseline5_ai, baseline6_ai, baseline7_ai
+]
+
+# MCCFR Player设置
+iterations = 10000
+# model_file = "mccfr_model.pkl"
+model_file = "./agents/model/mccfr_model.pkl"
+mccfr_player = MCCFRPlayer(iterations=iterations, model_file=model_file)
+
+
+
+train_mccfr_with_baselines(mccfr_player, baseline_players, rounds_per_baseline=100)
 # train_mccfr_with_baselines(mccfr_player, baseline_players)
 
 # ================================================================================================================
