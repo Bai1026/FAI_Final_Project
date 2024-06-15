@@ -66,15 +66,17 @@ import random
 from tqdm import tqdm
 from game.game import setup_config, start_poker
 
-from agents.call_player import setup_ai as call_ai
-from agents.random_player import setup_ai as random_ai
-from agents.console_player import setup_ai as console_ai
-from agents.allin_player import setup_ai as allin_ai
-from agents.raise_100_player import setup_ai as raise_100_ai
-from agents.raise_250_player import setup_ai as raise_250_ai
-from agents.preflop_call_player import setup_ai as preflop_call_ai
-from agents.preflop_allin_player import setup_ai as preflop_allin_ai
-from agents.flop_2 import setup_ai as flop_ai
+# from agents.call_player import setup_ai as call_ai
+# from agents.random_player import setup_ai as random_ai
+# from agents.console_player import setup_ai as console_ai
+# from agents.allin_player import setup_ai as allin_ai
+# from agents.raise_100_player import setup_ai as raise_100_ai
+# from agents.raise_250_player import setup_ai as raise_250_ai
+# from agents.preflop_call_player import setup_ai as preflop_call_ai
+# from agents.preflop_allin_player import setup_ai as preflop_allin_ai
+# from agents.flop_2 import setup_ai as flop_ai
+
+from src.agent import setup_ai as preflop_allin_ai
 
 from baseline0 import setup_ai as baseline0_ai
 from baseline1 import setup_ai as baseline1_ai
@@ -86,12 +88,12 @@ from baseline6 import setup_ai as baseline6_ai
 from baseline7 import setup_ai as baseline7_ai
 
 
-def train_call_player_with_baselines(thresholds, baseline_players, training_rounds=10):
+def train_call_player_with_baselines(thresholds, baseline_players, training_rounds=1):
     results = {f"baseline{i}": {threshold: {'wins': 0, 'losses': 0, 'draws': 0, 'winning_rate': 0} for threshold in thresholds} for i in range(len(baseline_players))}
 
     for threshold in thresholds:
         print(f"Testing threshold: {threshold}")
-        call_player = preflop_allin_ai(threshold)
+        call_player = preflop_allin_ai()
         
         for baseline_index in tqdm(range(len(baseline_players))):
             for i in range(training_rounds):
@@ -135,18 +137,18 @@ def train_call_player_with_baselines(thresholds, baseline_players, training_roun
     print('Game result saved to', result_file)
 
 
-baseline_players = [
-    baseline0_ai, baseline1_ai, baseline2_ai, baseline3_ai,
-    baseline4_ai, baseline5_ai, baseline6_ai, baseline7_ai
-]
-
 # baseline_players = [
-#     baseline0_ai, baseline1_ai
+#     baseline0_ai, baseline1_ai, baseline2_ai, baseline3_ai,
+#     baseline4_ai, baseline5_ai, baseline6_ai, baseline7_ai
 # ]
+
+baseline_players = [
+    baseline3_ai
+]
 
 
 # 执行训练
 # thresholds = range(40, 71)
-thresholds = [53, 49, 45, 44, 42]
-# thresholds = [49]
-train_call_player_with_baselines(thresholds, baseline_players, training_rounds=100)
+# thresholds = [53, 49, 45, 44, 42]
+thresholds = [45]
+train_call_player_with_baselines(thresholds, baseline_players, training_rounds=1)
