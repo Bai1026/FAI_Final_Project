@@ -29,7 +29,7 @@ def print_threshold_rates(results):
 
 
 # Load the results JSON file
-file_path = './call_player_results_1.json'
+file_path = './call_player_results_2.json'
 with open(file_path, 'r') as file:
     results = json.load(file)
 
